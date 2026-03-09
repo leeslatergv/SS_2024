@@ -1,0 +1,637 @@
+Indicator,Trust,Trust Type,White Rate,BME Rate,Likelihood Ratio (BME/White)
+Q15: Fair career progression,R0A,Acute&Acute Community Trusts,0.5839690310827735,0.4837024135357054,0.8283014813967832
+Q15: Fair career progression,R0B,Acute&Acute Community Trusts,0.6503422854133755,0.5405092592592593,0.8311150472334683
+Q15: Fair career progression,R0D,Acute&Acute Community Trusts,0.6160375251284342,0.4838112858464385,0.7853600894613869
+Q15: Fair career progression,R1F1,Acute&Acute Community Trusts,0.5418454935622318,0.6222222222222222,1.1483388338833884
+Q15: Fair career progression,R1H,Acute&Acute Community Trusts,0.5654435925520263,0.447653429602888,0.791685387365495
+Q15: Fair career progression,R1K,Acute&Acute Community Trusts,0.5152733118971061,0.512973533990659,0.9955367804748515
+Q15: Fair career progression,RA2,Acute&Acute Community Trusts,0.6547997457088366,0.6009732360097324,0.9177969905274845
+Q15: Fair career progression,RA7,Acute&Acute Community Trusts,0.5996583143507973,0.5184776613348042,0.8646218170027694
+Q15: Fair career progression,RA9,Acute&Acute Community Trusts,0.5380875202593193,0.4944649446494465,0.9189303338816521
+Q15: Fair career progression,RAE,Acute&Acute Community Trusts,0.6147396293027361,0.5049342105263158,0.8213789813730307
+Q15: Fair career progression,RAJ,Acute&Acute Community Trusts,0.4866071428571428,0.43536503683858,0.8946951215765315
+Q15: Fair career progression,RAL,Acute&Acute Community Trusts,0.5458271236959762,0.4931865828092243,0.9035582172422921
+Q15: Fair career progression,RAP,Acute&Acute Community Trusts,0.5352798053527981,0.5050215208034433,0.9434720229555236
+Q15: Fair career progression,RAS,Acute&Acute Community Trusts,0.5359394703656999,0.4703018500486854,0.8775279225614294
+Q15: Fair career progression,RAX,Acute&Acute Community Trusts,0.5878962536023055,0.5381391450125733,0.9153641339184458
+Q15: Fair career progression,RBD,Acute&Acute Community Trusts,0.6020482809070958,0.5572755417956656,0.9256326435415247
+Q15: Fair career progression,RBK,Acute&Acute Community Trusts,0.6145833333333334,0.4814814814814814,0.7834274952919019
+Q15: Fair career progression,RBL,Acute&Acute Community Trusts,0.5785526809148857,0.4945652173913043,0.8548317788610554
+Q15: Fair career progression,RBN,Acute&Acute Community Trusts,0.5941943127962085,0.4947807933194154,0.8326919034129344
+Q15: Fair career progression,RBS,Acute&Acute Community Trusts,0.6539130434782608,0.5384615384615384,0.8234451718494271
+Q15: Fair career progression,RBT,Acute&Acute Community Trusts,0.6493072145246058,0.4507042253521127,0.6941309372052773
+Q15: Fair career progression,RC9,Acute&Acute Community Trusts,0.5884315906562848,0.496096522356281,0.8430827478228669
+Q15: Fair career progression,RCB,Acute&Acute Community Trusts,0.536714833382483,0.4055727554179567,0.7556578096825776
+Q15: Fair career progression,RCD,Acute&Acute Community Trusts,0.6027592768791628,0.5083612040133779,0.8433900953718392
+Q15: Fair career progression,RCF,Acute&Acute Community Trusts,0.6281124497991968,0.5521235521235521,0.8790202332401821
+Q15: Fair career progression,RCU,Acute&Acute Community Trusts,0.625560538116592,0.5192307692307693,0.8300248138957816
+Q15: Fair career progression,RCX,Acute&Acute Community Trusts,0.5335138794854435,0.4320987654320987,0.8099110108416367
+Q15: Fair career progression,RD1,Acute&Acute Community Trusts,0.5767634854771784,0.5164835164835165,0.8954858091548741
+Q15: Fair career progression,RD8,Acute&Acute Community Trusts,0.5934426229508196,0.444311377245509,0.7487014920435373
+Q15: Fair career progression,RDE,Acute&Acute Community Trusts,0.5846820150444495,0.5362549800796813,0.9171737222649364
+Q15: Fair career progression,RDU,Acute&Acute Community Trusts,0.608983286908078,0.5349922239502333,0.8785006673442366
+Q15: Fair career progression,REF,Acute&Acute Community Trusts,0.5477941176470589,0.4581151832460733,0.8362908043149794
+Q15: Fair career progression,REM,Acute&Acute Community Trusts,0.5052135054617676,0.4587852494577006,0.9081017124401073
+Q15: Fair career progression,RF4,Acute&Acute Community Trusts,0.4782372143634385,0.4629360465116279,0.9680050665396724
+Q15: Fair career progression,RFF,Acute&Acute Community Trusts,0.6878914405010439,0.5629370629370629,0.8183516028736059
+Q15: Fair career progression,RFR,Acute&Acute Community Trusts,0.6326930615444923,0.5152224824355972,0.8143324366128925
+Q15: Fair career progression,RFS,Acute&Acute Community Trusts,0.6519337016574586,0.522673031026253,0.8017272764046761
+Q15: Fair career progression,RGN,Acute&Acute Community Trusts,0.5488126649076517,0.4495495495495495,0.8191311503811504
+Q15: Fair career progression,RGP,Acute&Acute Community Trusts,0.5387994143484627,0.4779874213836478,0.8871342630571507
+Q15: Fair career progression,RGR,Acute&Acute Community Trusts,0.5372549019607843,0.4581939799331103,0.8528428093645484
+Q15: Fair career progression,RGT,Acute&Acute Community Trusts,0.6223648029330889,0.5529175050301811,0.8884138409247828
+Q15: Fair career progression,RH5,Acute&Acute Community Trusts,0.6223632630203472,0.5409015025041736,0.8691089828778819
+Q15: Fair career progression,RH8,Acute&Acute Community Trusts,0.6052195526097763,0.531062124248497,0.8774702039259902
+Q15: Fair career progression,RHM,Acute&Acute Community Trusts,0.6337106918238994,0.5448057097541633,0.859707303006272
+Q15: Fair career progression,RHQ,Acute&Acute Community Trusts,0.5934352411423155,0.472087912087912,0.7955171505810481
+Q15: Fair career progression,RHU,Acute&Acute Community Trusts,0.5780682643427741,0.4921212121212121,0.8513202375513933
+Q15: Fair career progression,RHW,Acute&Acute Community Trusts,0.6389024987751103,0.5390920554854981,0.8437782862315196
+Q15: Fair career progression,RJ1,Acute&Acute Community Trusts,0.5946119307248237,0.4681082762912258,0.787250056891069
+Q15: Fair career progression,RJ2,Acute&Acute Community Trusts,0.5858138062064597,0.4855619724566859,0.8288674102801158
+Q15: Fair career progression,RJ6,Acute&Acute Community Trusts,0.5555555555555556,0.4660194174757281,0.8388349514563106
+Q15: Fair career progression,RJ7,Acute&Acute Community Trusts,0.5507745266781411,0.4515852613538988,0.8199094901456726
+Q15: Fair career progression,RJC,Acute&Acute Community Trusts,0.6642522368981679,0.5240963855421686,0.7890020634172352
+Q15: Fair career progression,RJE,Acute&Acute Community Trusts,0.5924743443557583,0.4828473413379073,0.8149675103028189
+Q15: Fair career progression,RJL,Acute&Acute Community Trusts,0.541039156626506,0.4625984251968504,0.8550183836623763
+Q15: Fair career progression,RJN,Acute&Acute Community Trusts,0.5917721518987342,0.5286624203821656,0.8933546782928573
+Q15: Fair career progression,RJR,Acute&Acute Community Trusts,0.5345672291780076,0.3768115942028985,0.7048909353877033
+Q15: Fair career progression,RJZ,Acute&Acute Community Trusts,0.5178812415654521,0.4403973509933774,0.8503828979442153
+Q15: Fair career progression,RK5,Acute&Acute Community Trusts,0.6536406145624583,0.5964432284541724,0.9124941369401084
+Q15: Fair career progression,RK9,Acute&Acute Community Trusts,0.5894360806328145,0.4961948249619482,0.8418127787990801
+Q15: Fair career progression,RKB,Acute&Acute Community Trusts,0.5958169934640523,0.4696472518457752,0.788240780302804
+Q15: Fair career progression,RKE,Acute&Acute Community Trusts,0.5897196261682243,0.4689312344656172,0.7951765782538992
+Q15: Fair career progression,RL4,Acute&Acute Community Trusts,0.6107675518370317,0.4777070063694267,0.7821420848776378
+Q15: Fair career progression,RLQ,Acute&Acute Community Trusts,0.600174978127734,0.4506437768240343,0.7508539896645353
+Q15: Fair career progression,RLT,Acute&Acute Community Trusts,0.5998336106489185,0.5163265306122449,0.8607829262079311
+Q15: Fair career progression,RM1,Acute&Acute Community Trusts,0.5348015225666123,0.4428969359331476,0.828151972731122
+Q15: Fair career progression,RM3,Acute&Acute Community Trusts,0.5853341218214074,0.4615384615384615,0.78850428213936
+Q15: Fair career progression,RMC,Acute&Acute Community Trusts,0.5853448275862069,0.4970414201183432,0.8491429268590251
+Q15: Fair career progression,RMP,Acute&Acute Community Trusts,0.5674418604651162,0.5215189873417722,0.9190703465449264
+Q15: Fair career progression,RN3,Acute&Acute Community Trusts,0.6023926812104152,0.4465116279069767,0.7412301673549228
+Q15: Fair career progression,RN5,Acute&Acute Community Trusts,0.5851559698816781,0.5108038029386344,0.8729361558798108
+Q15: Fair career progression,RN7,Acute&Acute Community Trusts,0.5684051398337112,0.4619225967540574,0.8126643557255558
+Q15: Fair career progression,RNA,Acute&Acute Community Trusts,0.62152133580705,0.5184135977337111,0.8341042662043889
+Q15: Fair career progression,RNN,Acute&Acute Community Trusts,0.5594319234331584,0.5114678899082569,0.9142629665633797
+Q15: Fair career progression,RNQ,Acute&Acute Community Trusts,0.4964747356051704,0.4407643312101911,0.88778803753816
+Q15: Fair career progression,RNS,Acute&Acute Community Trusts,0.5502202643171806,0.4888535031847134,0.8884687367728578
+Q15: Fair career progression,RNZ,Acute&Acute Community Trusts,0.6015789473684211,0.561046511627907,0.9326232476754358
+Q15: Fair career progression,RP5,Acute&Acute Community Trusts,0.6302150816273646,0.4660033167495854,0.7394353615693462
+Q15: Fair career progression,RPA,Acute&Acute Community Trusts,0.5529646902065289,0.4456521739130434,0.8059324253535882
+Q15: Fair career progression,RQ3,Acute&Acute Community Trusts,0.6259168704156479,0.4360341151385927,0.6966326292643923
+Q15: Fair career progression,RQM,Acute&Acute Community Trusts,0.6367713004484304,0.5138071525577185,0.8068943311293748
+Q15: Fair career progression,RQW,Acute&Acute Community Trusts,0.5231519090170593,0.4946091644204852,0.9454408096298405
+Q15: Fair career progression,RQX,Acute&Acute Community Trusts,0.5233949945593036,0.4187558031569173,0.8000760563434657
+Q15: Fair career progression,RR7,Acute&Acute Community Trusts,0.6597888675623801,0.5465116279069767,0.8283128964059195
+Q15: Fair career progression,RR8,Acute&Acute Community Trusts,0.6374008626687074,0.5095162569389373,0.7993654963152461
+Q15: Fair career progression,RRF,Acute&Acute Community Trusts,0.5523548239597622,0.4685314685314685,0.8482436437734451
+Q15: Fair career progression,RRK,Acute&Acute Community Trusts,0.5475073823171791,0.4378230465186987,0.7996660148503009
+Q15: Fair career progression,RRV,Acute&Acute Community Trusts,0.638347260909935,0.5206801470588235,0.8156691176470587
+Q15: Fair career progression,RTD,Acute&Acute Community Trusts,0.5783708192518354,0.4723650385604113,0.8167165818833144
+Q15: Fair career progression,RTE,Acute&Acute Community Trusts,0.5361817732773524,0.4852624011502516,0.9050333773640575
+Q15: Fair career progression,RTF,Acute&Acute Community Trusts,0.6838105337575114,0.6288461538461538,0.9196204545002684
+Q15: Fair career progression,RTG,Acute&Acute Community Trusts,0.6085659118834474,0.5010940919037199,0.8234015118475605
+Q15: Fair career progression,RTH,Acute&Acute Community Trusts,0.5632183908045977,0.5149253731343284,0.9142552543405423
+Q15: Fair career progression,RTK,Acute&Acute Community Trusts,0.5835597826086957,0.5608820709491851,0.9611390086579749
+Q15: Fair career progression,RTP,Acute&Acute Community Trusts,0.5208978328173375,0.5157894736842106,0.9901931649331353
+Q15: Fair career progression,RTR,Acute&Acute Community Trusts,0.578420467185762,0.4963768115942029,0.8581591415830545
+Q15: Fair career progression,RTX,Acute&Acute Community Trusts,0.5569374271278663,0.5391923990498813,0.9681382015040785
+Q15: Fair career progression,RVJ,Acute&Acute Community Trusts,0.5799734160389898,0.5135583840619812,0.8854860754987712
+Q15: Fair career progression,RVR,Acute&Acute Community Trusts,0.5493358633776091,0.510141364474493,0.9286511194406142
+Q15: Fair career progression,RVV,Acute&Acute Community Trusts,0.5264623955431755,0.4726867335562987,0.897854694956144
+Q15: Fair career progression,RVW,Acute&Acute Community Trusts,0.5842751842751843,0.4763779527559055,0.8153314834804606
+Q15: Fair career progression,RWA,Acute&Acute Community Trusts,0.5692433761267414,0.5136986301369864,0.9024235532300897
+Q15: Fair career progression,RWD,Acute&Acute Community Trusts,0.5708274894810659,0.5277337559429477,0.9245065552514048
+Q15: Fair career progression,RWE,Acute&Acute Community Trusts,0.6246120422098076,0.5127068053897322,0.8208404109146421
+Q15: Fair career progression,RWF,Acute&Acute Community Trusts,0.5793450881612091,0.4969325153374233,0.8577487329954653
+Q15: Fair career progression,RWG,Acute&Acute Community Trusts,0.5782983970406905,0.5305216426193119,0.9173839065336076
+Q15: Fair career progression,RWH,Acute&Acute Community Trusts,0.5901808785529715,0.5049580472921434,0.8555987929161976
+Q15: Fair career progression,RWJ,Acute&Acute Community Trusts,0.593481213218651,0.4835589941972921,0.8147839955620276
+Q15: Fair career progression,RWP,Acute&Acute Community Trusts,0.6173062997827661,0.4969325153374233,0.8050015292445531
+Q15: Fair career progression,RWW,Acute&Acute Community Trusts,0.6340710241893979,0.5254237288135594,0.8286512216596963
+Q15: Fair career progression,RWY,Acute&Acute Community Trusts,0.6282188841201717,0.4973118279569892,0.7916219020596309
+Q15: Fair career progression,RX1,Acute&Acute Community Trusts,0.5571221981200289,0.4753623188405797,0.8532460570493469
+Q15: Fair career progression,RXC,Acute&Acute Community Trusts,0.5536955148452306,0.4469273743016759,0.8071717438899634
+Q15: Fair career progression,RXF,Acute&Acute Community Trusts,0.59375,0.5283018867924528,0.8897715988083416
+Q15: Fair career progression,RXK,Acute&Acute Community Trusts,0.6089171974522293,0.4642857142857143,0.76247758517633
+Q15: Fair career progression,RXL,Acute&Acute Community Trusts,0.6139835487661575,0.4929577464788732,0.8028842913942987
+Q15: Fair career progression,RXN,Acute&Acute Community Trusts,0.5946640951462552,0.5080147965474723,0.8542886659779386
+Q15: Fair career progression,RXP,Acute&Acute Community Trusts,0.6195933456561923,0.5472972972972973,0.883316938657034
+Q15: Fair career progression,RXQ,Acute&Acute Community Trusts,0.5943931866572036,0.5310344827586206,0.8934060730828616
+Q15: Fair career progression,RXR,Acute&Acute Community Trusts,0.6490428441203282,0.5144508670520231,0.7926300578034682
+Q15: Fair career progression,RXW,Acute&Acute Community Trusts,0.5728549141965679,0.5059445178335535,0.8831983549327554
+Q15: Fair career progression,RYJ,Acute&Acute Community Trusts,0.6047318611987381,0.5222692633361558,0.8636377489700646
+Q15: Fair career progression,RYR,Acute&Acute Community Trusts,0.5368456152050683,0.5139484978540773,0.9573487857542718
+Q15: Fair career progression,RAN,Acute Specialist Trusts,0.6256410256410256,0.4964705882352941,0.7935390549662488
+Q15: Fair career progression,RBQ,Acute Specialist Trusts,0.7029702970297029,0.6790697674418604,0.9660006550933508
+Q15: Fair career progression,RBV,Acute Specialist Trusts,0.6488983653162758,0.6163522012578616,0.9498439728037363
+Q15: Fair career progression,REN,Acute Specialist Trusts,0.6438467807660961,0.5221238938053098,0.8109443262014115
+Q15: Fair career progression,REP,Acute Specialist Trusts,0.5911949685534591,0.4653465346534653,0.787128712871287
+Q15: Fair career progression,RET,Acute Specialist Trusts,0.5621805792163543,0.5795454545454546,1.0308884297520662
+Q15: Fair career progression,RGM,Acute Specialist Trusts,0.5973451327433629,0.5283018867924528,0.8844164919636617
+Q15: Fair career progression,RL1,Acute Specialist Trusts,0.6007702182284981,0.5178571428571429,0.8619887057387058
+Q15: Fair career progression,RP4,Acute Specialist Trusts,0.5969184890656064,0.4716828478964401,0.7901964112969504
+Q15: Fair career progression,RP6,Acute Specialist Trusts,0.5273311897106109,0.4737777777777778,0.8984444444444446
+Q15: Fair career progression,RPC,Acute Specialist Trusts,0.6310861423220974,0.5511811023622047,0.8733848921703778
+Q15: Fair career progression,RPY,Acute Specialist Trusts,0.6044039483675019,0.4746227709190672,0.785274107161321
+Q15: Fair career progression,RRJ,Acute Specialist Trusts,0.5787545787545788,0.4588235294117647,0.7927773641102009
+Q15: Fair career progression,R1D,Community Trusts,0.5845588235294118,0.6470588235294118,1.1069182389937107
+Q15: Fair career progression,RDR,Community Trusts,0.6240900066181337,0.5588752196836555,0.8955041961208944
+Q15: Fair career progression,RY2,Community Trusts,0.6264800861141012,0.4423076923076923,0.7060203542162304
+Q15: Fair career progression,RY3,Community Trusts,0.664576802507837,0.5964912280701754,0.8975504799735187
+Q15: Fair career progression,RY4,Community Trusts,0.693984962406015,0.5261324041811847,0.7581322833813386
+Q15: Fair career progression,RY5,Community Trusts,0.6356453028972783,0.618421052631579,0.9729027333527189
+Q15: Fair career progression,RY6,Community Trusts,0.6318289786223278,0.5051903114186851,0.7995681244634076
+Q15: Fair career progression,RY7,Community Trusts,0.6184971098265896,0.4565217391304347,0.73811458756603
+Q15: Fair career progression,RY8,Community Trusts,0.6892329852358661,0.5252100840336135,0.7620211093841925
+Q15: Fair career progression,RY9,Community Trusts,0.6511627906976745,0.5454545454545454,0.8376623376623376
+Q15: Fair career progression,RYV,Community Trusts,0.7131386861313869,0.5627906976744186,0.7891742638832686
+Q15: Fair career progression,RYW,Community Trusts,0.5602836879432624,0.4518167456556082,0.8064071030055792
+Q15: Fair career progression,RYX,Community Trusts,0.6259946949602122,0.5463087248322148,0.8727050392446821
+Q15: Fair career progression,RYY,Community Trusts,0.6766348997699638,0.5555555555555556,0.8210566078463116
+Q15: Fair career progression,RRU,Ambulance Trusts,0.5061811643065858,0.4470108695652174,0.8831045109660978
+Q15: Fair career progression,RX6,Ambulance Trusts,0.4857341684064022,0.3773584905660377,0.7768827377412553
+Q15: Fair career progression,RX7,Ambulance Trusts,0.5157601977750309,0.4555984555984556,0.8833532668164183
+Q15: Fair career progression,RX8,Ambulance Trusts,0.5447377442577991,0.3880597014925373,0.712378948554897
+Q15: Fair career progression,RX9,Ambulance Trusts,0.5377848860455817,0.4385964912280701,0.8155612078523445
+Q15: Fair career progression,RYA,Ambulance Trusts,0.4567078972407231,0.4114285714285714,0.9008571428571429
+Q15: Fair career progression,RYC,Ambulance Trusts,0.4571626777662158,0.4215686274509804,0.9221413906989199
+Q15: Fair career progression,RYD,Ambulance Trusts,0.4682512733446519,0.4126394052044609,0.8812349879094543
+Q15: Fair career progression,RYE,Ambulance Trusts,0.5391566265060241,0.4426229508196721,0.820954299844308
+Q15: Fair career progression,RYF,Ambulance Trusts,0.4997813729777,0.4767441860465116,0.9539054711184358
+Q16b: Discrimination from manager/colleagues,R0A,Acute&Acute Community Trusts,0.0661798265632131,0.1612741409581138,2.4369078816498453
+Q16b: Discrimination from manager/colleagues,R0B,Acute&Acute Community Trusts,0.0649385355424906,0.2058139534883721,3.1693654895205303
+Q16b: Discrimination from manager/colleagues,R0D,Acute&Acute Community Trusts,0.0513798519183307,0.1520522388059701,2.9593747963240564
+Q16b: Discrimination from manager/colleagues,R1F1,Acute&Acute Community Trusts,0.0795698924731182,0.1428571428571428,1.7953667953667964
+Q16b: Discrimination from manager/colleagues,R1H,Acute&Acute Community Trusts,0.1011019283746556,0.1625187907132119,1.6074746874358568
+Q16b: Discrimination from manager/colleagues,R1K,Acute&Acute Community Trusts,0.1003210272873194,0.1465858159767993,1.4611674136567356
+Q16b: Discrimination from manager/colleagues,RA2,Acute&Acute Community Trusts,0.055198973042362,0.1034063260340632,1.8733378600124473
+Q16b: Discrimination from manager/colleagues,RA7,Acute&Acute Community Trusts,0.0553639846743295,0.1290858725761773,2.331585656912268
+Q16b: Discrimination from manager/colleagues,RA9,Acute&Acute Community Trusts,0.079967689822294,0.1654135338345864,2.068504594820384
+Q16b: Discrimination from manager/colleagues,RAE,Acute&Acute Community Trusts,0.0654867256637168,0.1388660640920296,2.1205223300539657
+Q16b: Discrimination from manager/colleagues,RAJ,Acute&Acute Community Trusts,0.0926320777067045,0.179366149696561,1.9363286902025183
+Q16b: Discrimination from manager/colleagues,RAL,Acute&Acute Community Trusts,0.0945590994371482,0.1546364594309799,1.63534192215699
+Q16b: Discrimination from manager/colleagues,RAP,Acute&Acute Community Trusts,0.0901339829476248,0.1293436293436293,1.4350151309610772
+Q16b: Discrimination from manager/colleagues,RAS,Acute&Acute Community Trusts,0.0993710691823899,0.1565557729941291,1.575466323168768
+Q16b: Discrimination from manager/colleagues,RAX,Acute&Acute Community Trusts,0.0721500721500721,0.1545608108108108,2.142212837837839
+Q16b: Discrimination from manager/colleagues,RBD,Acute&Acute Community Trusts,0.0542124542124542,0.1784615384615384,3.2918918918918916
+Q16b: Discrimination from manager/colleagues,RBK,Acute&Acute Community Trusts,0.0686274509803921,0.1708108108108108,2.4889575289575308
+Q16b: Discrimination from manager/colleagues,RBL,Acute&Acute Community Trusts,0.051214953271028,0.1689373297002724,3.298593846337438
+Q16b: Discrimination from manager/colleagues,RBN,Acute&Acute Community Trusts,0.0535978679301154,0.1431535269709543,2.6708809976846046
+Q16b: Discrimination from manager/colleagues,RBS,Acute&Acute Community Trusts,0.0360086767895878,0.1635802469135802,4.542800832961481
+Q16b: Discrimination from manager/colleagues,RBT,Acute&Acute Community Trusts,0.0500954198473282,0.1352313167259786,2.6994746653109654
+Q16b: Discrimination from manager/colleagues,RC9,Acute&Acute Community Trusts,0.0916201117318435,0.1451036454610436,1.583753203507733
+Q16b: Discrimination from manager/colleagues,RCB,Acute&Acute Community Trusts,0.0726622989874925,0.225705329153605,3.1062233413844513
+Q16b: Discrimination from manager/colleagues,RCD,Acute&Acute Community Trusts,0.0572792362768496,0.1476510067114094,2.577740492170024
+Q16b: Discrimination from manager/colleagues,RCF,Acute&Acute Community Trusts,0.0522928399034593,0.1517509727626459,2.9019455252918327
+Q16b: Discrimination from manager/colleagues,RCU,Acute&Acute Community Trusts,0.0534007869589657,0.1302681992337164,2.439443436176648
+Q16b: Discrimination from manager/colleagues,RCX,Acute&Acute Community Trusts,0.0697197539302802,0.1890547263681592,2.7116378889864423
+Q16b: Discrimination from manager/colleagues,RD1,Acute&Acute Community Trusts,0.0610310841546626,0.1611111111111111,2.639820565907523
+Q16b: Discrimination from manager/colleagues,RD8,Acute&Acute Community Trusts,0.0645418326693227,0.1470937129300118,2.2790445645328994
+Q16b: Discrimination from manager/colleagues,RDE,Acute&Acute Community Trusts,0.0617507351277991,0.1481774960380348,2.399606996278946
+Q16b: Discrimination from manager/colleagues,RDU,Acute&Acute Community Trusts,0.0679473496976165,0.1412228796844181,2.078416307816227
+Q16b: Discrimination from manager/colleagues,REF,Acute&Acute Community Trusts,0.0673366834170854,0.2493368700265252,3.702838592184965
+Q16b: Discrimination from manager/colleagues,REM,Acute&Acute Community Trusts,0.0734196117471378,0.1812227074235808,2.468314706535418
+Q16b: Discrimination from manager/colleagues,RF4,Acute&Acute Community Trusts,0.112316874660879,0.1780372126960963,1.5851332512024419
+Q16b: Discrimination from manager/colleagues,RFF,Acute&Acute Community Trusts,0.0428276573787409,0.2090592334494773,4.881407161748045
+Q16b: Discrimination from manager/colleagues,RFR,Acute&Acute Community Trusts,0.0470451010886469,0.1411764705882353,3.000875060768113
+Q16b: Discrimination from manager/colleagues,RFS,Acute&Acute Community Trusts,0.0457364341085271,0.1577726218097447,3.4496047819418774
+Q16b: Discrimination from manager/colleagues,RGN,Acute&Acute Community Trusts,0.0808878856282919,0.2071167883211679,2.5605415039891377
+Q16b: Discrimination from manager/colleagues,RGP,Acute&Acute Community Trusts,0.0715328467153284,0.2444444444444444,3.4172335600907053
+Q16b: Discrimination from manager/colleagues,RGR,Acute&Acute Community Trusts,0.0733763014377788,0.1632653061224489,2.225041367898512
+Q16b: Discrimination from manager/colleagues,RGT,Acute&Acute Community Trusts,0.0776160776160776,0.1411859620814844,1.819029850746268
+Q16b: Discrimination from manager/colleagues,RH5,Acute&Acute Community Trusts,0.0573416055649558,0.1452702702702702,2.5334182543198933
+Q16b: Discrimination from manager/colleagues,RH8,Acute&Acute Community Trusts,0.0601047120418848,0.1408450704225352,2.343328262256466
+Q16b: Discrimination from manager/colleagues,RHM,Acute&Acute Community Trusts,0.0633071663712332,0.1285942492012779,2.0312747603833867
+Q16b: Discrimination from manager/colleagues,RHQ,Acute&Acute Community Trusts,0.0567224397769075,0.145704162976085,2.568721718408932
+Q16b: Discrimination from manager/colleagues,RHU,Acute&Acute Community Trusts,0.0574880995972171,0.1871202916160388,3.254939594926129
+Q16b: Discrimination from manager/colleagues,RHW,Acute&Acute Community Trusts,0.060515873015873,0.1065313887127457,1.760387538072913
+Q16b: Discrimination from manager/colleagues,RJ1,Acute&Acute Community Trusts,0.093139628732849,0.1513496645342487,1.624976034297524
+Q16b: Discrimination from manager/colleagues,RJ2,Acute&Acute Community Trusts,0.0796178343949044,0.1356918943125839,1.7042901925660552
+Q16b: Discrimination from manager/colleagues,RJ6,Acute&Acute Community Trusts,0.0859277708592777,0.1336599020293911,1.5554913236174066
+Q16b: Discrimination from manager/colleagues,RJ7,Acute&Acute Community Trusts,0.0945359930615784,0.163519313304721,1.729704295782968
+Q16b: Discrimination from manager/colleagues,RJC,Acute&Acute Community Trusts,0.0486971379752242,0.1265306122448979,2.598317221625494
+Q16b: Discrimination from manager/colleagues,RJE,Acute&Acute Community Trusts,0.0816978548607941,0.1891659501289767,2.3154335012993754
+Q16b: Discrimination from manager/colleagues,RJL,Acute&Acute Community Trusts,0.0660341555977229,0.2178217821782178,3.298622965744853
+Q16b: Discrimination from manager/colleagues,RJN,Acute&Acute Community Trusts,0.058498023715415,0.1666666666666666,2.849099099099099
+Q16b: Discrimination from manager/colleagues,RJR,Acute&Acute Community Trusts,0.0710382513661202,0.2262773722627737,3.185289163391354
+Q16b: Discrimination from manager/colleagues,RJZ,Acute&Acute Community Trusts,0.0918298446995273,0.1720969089390142,1.8740847216079422
+Q16b: Discrimination from manager/colleagues,RK5,Acute&Acute Community Trusts,0.0521042084168336,0.1187845303867403,2.2797492562685955
+Q16b: Discrimination from manager/colleagues,RK9,Acute&Acute Community Trusts,0.0810880164228894,0.1865443425076452,2.3005167808616878
+Q16b: Discrimination from manager/colleagues,RKB,Acute&Acute Community Trusts,0.0743050142894258,0.1529652351738241,2.0586125530910806
+Q16b: Discrimination from manager/colleagues,RKE,Acute&Acute Community Trusts,0.0790216368767638,0.1439205955334987,1.8212808696679672
+Q16b: Discrimination from manager/colleagues,RL4,Acute&Acute Community Trusts,0.0760233918128654,0.1747483989021043,2.2986135547892212
+Q16b: Discrimination from manager/colleagues,RLQ,Acute&Acute Community Trusts,0.0452567449956483,0.1829787234042553,4.043126022913264
+Q16b: Discrimination from manager/colleagues,RLT,Acute&Acute Community Trusts,0.0713692946058091,0.1568228105906313,2.1973428693222186
+Q16b: Discrimination from manager/colleagues,RM1,Acute&Acute Community Trusts,0.0791621327529923,0.1882022471910112,2.377427699911195
+Q16b: Discrimination from manager/colleagues,RM3,Acute&Acute Community Trusts,0.0596997281002482,0.1721746226030192,2.884010163562259
+Q16b: Discrimination from manager/colleagues,RMC,Acute&Acute Community Trusts,0.0518423307626392,0.149402390438247,2.881860985808833
+Q16b: Discrimination from manager/colleagues,RMP,Acute&Acute Community Trusts,0.0647482014388489,0.1994949494949495,3.0810886644219986
+Q16b: Discrimination from manager/colleagues,RN3,Acute&Acute Community Trusts,0.0668553236646621,0.1857366771159874,2.7781882868089793
+Q16b: Discrimination from manager/colleagues,RN5,Acute&Acute Community Trusts,0.063953488372093,0.1695804195804195,2.6516211061665604
+Q16b: Discrimination from manager/colleagues,RN7,Acute&Acute Community Trusts,0.080999242997729,0.1548064918851435,1.9112091194418184
+Q16b: Discrimination from manager/colleagues,RNA,Acute&Acute Community Trusts,0.0566914498141263,0.1829787234042553,3.2276246948029352
+Q16b: Discrimination from manager/colleagues,RNN,Acute&Acute Community Trusts,0.0705407085146053,0.1990846681922196,2.822266353491467
+Q16b: Discrimination from manager/colleagues,RNQ,Acute&Acute Community Trusts,0.0880798590722254,0.175032175032175,1.9871986271986286
+Q16b: Discrimination from manager/colleagues,RNS,Acute&Acute Community Trusts,0.0862450243255196,0.1398880895283773,1.621984463711084
+Q16b: Discrimination from manager/colleagues,RNZ,Acute&Acute Community Trusts,0.0671957671957672,0.1322436849925705,1.9680359420154192
+Q16b: Discrimination from manager/colleagues,RP5,Acute&Acute Community Trusts,0.0451962809917355,0.1930116472545757,4.270520560969816
+Q16b: Discrimination from manager/colleagues,RPA,Acute&Acute Community Trusts,0.095364238410596,0.185064935064935,1.9406114718614715
+Q16b: Discrimination from manager/colleagues,RQ3,Acute&Acute Community Trusts,0.0626529613313754,0.1534334763948497,2.448942127145922
+Q16b: Discrimination from manager/colleagues,RQM,Acute&Acute Community Trusts,0.0636655948553054,0.1560509554140127,2.4511033905938384
+Q16b: Discrimination from manager/colleagues,RQW,Acute&Acute Community Trusts,0.0712530712530712,0.1751025991792065,2.4574744091702447
+Q16b: Discrimination from manager/colleagues,RQX,Acute&Acute Community Trusts,0.075055187637969,0.1573986804901036,2.0971059488828536
+Q16b: Discrimination from manager/colleagues,RR7,Acute&Acute Community Trusts,0.0583695127834056,0.1705426356589147,2.9217758985200883
+Q16b: Discrimination from manager/colleagues,RR8,Acute&Acute Community Trusts,0.0549096512116542,0.1406935033878039,2.5622727568508514
+Q16b: Discrimination from manager/colleagues,RRF,Acute&Acute Community Trusts,0.0663008687700045,0.2369337979094076,3.573615282950862
+Q16b: Discrimination from manager/colleagues,RRK,Acute&Acute Community Trusts,0.0832027850304612,0.1766329346826127,2.1229209409029517
+Q16b: Discrimination from manager/colleagues,RRV,Acute&Acute Community Trusts,0.085955847815876,0.1512217611802674,1.7592957899059525
+Q16b: Discrimination from manager/colleagues,RTD,Acute&Acute Community Trusts,0.0631113181183046,0.1910621761658031,3.027383706479552
+Q16b: Discrimination from manager/colleagues,RTE,Acute&Acute Community Trusts,0.0749625187406296,0.1694545454545454,2.2605236363636383
+Q16b: Discrimination from manager/colleagues,RTF,Acute&Acute Community Trusts,0.0398860398860398,0.09765625,2.4483816964285765
+Q16b: Discrimination from manager/colleagues,RTG,Acute&Acute Community Trusts,0.059355067328136,0.1572292468389224,2.6489608034593406
+Q16b: Discrimination from manager/colleagues,RTH,Acute&Acute Community Trusts,0.072479215519079,0.1572438162544169,2.169502182498443
+Q16b: Discrimination from manager/colleagues,RTK,Acute&Acute Community Trusts,0.0637860082304526,0.1320388349514563,2.070028186658317
+Q16b: Discrimination from manager/colleagues,RTP,Acute&Acute Community Trusts,0.071648690292758,0.1288805268109125,1.7987841268877918
+Q16b: Discrimination from manager/colleagues,RTR,Acute&Acute Community Trusts,0.0716395864106351,0.1970260223048327,2.7502395278427185
+Q16b: Discrimination from manager/colleagues,RTX,Acute&Acute Community Trusts,0.0681017612524461,0.1682464454976303,2.470515334749689
+Q16b: Discrimination from manager/colleagues,RVJ,Acute&Acute Community Trusts,0.060363959165557,0.1218697829716193,2.0189163311401357
+Q16b: Discrimination from manager/colleagues,RVR,Acute&Acute Community Trusts,0.0824988078206962,0.1337030191004313,1.6206660754543616
+Q16b: Discrimination from manager/colleagues,RVV,Acute&Acute Community Trusts,0.0839944003733084,0.1793142214727374,2.1348354256448694
+Q16b: Discrimination from manager/colleagues,RVW,Acute&Acute Community Trusts,0.0477127397934087,0.1541501976284585,3.2307974410170774
+Q16b: Discrimination from manager/colleagues,RWA,Acute&Acute Community Trusts,0.0605393505778756,0.1906721536351166,3.1495573014091542
+Q16b: Discrimination from manager/colleagues,RWD,Acute&Acute Community Trusts,0.0805084745762711,0.1838351822503962,2.2834264742680817
+Q16b: Discrimination from manager/colleagues,RWE,Acute&Acute Community Trusts,0.060455743295613,0.1270604395604395,2.101709988729221
+Q16b: Discrimination from manager/colleagues,RWF,Acute&Acute Community Trusts,0.0669191919191919,0.1540516473731077,2.302054806028327
+Q16b: Discrimination from manager/colleagues,RWG,Acute&Acute Community Trusts,0.0816831683168316,0.1244369369369369,1.5234097734097745
+Q16b: Discrimination from manager/colleagues,RWH,Acute&Acute Community Trusts,0.0747663551401869,0.1548436308161708,2.071033562166285
+Q16b: Discrimination from manager/colleagues,RWJ,Acute&Acute Community Trusts,0.0567567567567567,0.1532416502946954,2.6999719337636834
+Q16b: Discrimination from manager/colleagues,RWP,Acute&Acute Community Trusts,0.0566313481914504,0.1411042944785276,2.491628735404714
+Q16b: Discrimination from manager/colleagues,RWW,Acute&Acute Community Trusts,0.0474716202270381,0.1540342298288508,3.2447645370468843
+Q16b: Discrimination from manager/colleagues,RWY,Acute&Acute Community Trusts,0.0579004329004329,0.1962365591397849,3.3892071148628276
+Q16b: Discrimination from manager/colleagues,RX1,Acute&Acute Community Trusts,0.0706777818050018,0.1606016496846191,2.272307443486483
+Q16b: Discrimination from manager/colleagues,RXC,Acute&Acute Community Trusts,0.079145728643216,0.1652777777777777,2.0882716049382726
+Q16b: Discrimination from manager/colleagues,RXF,Acute&Acute Community Trusts,0.0718465539661898,0.1666666666666666,2.3197586726998503
+Q16b: Discrimination from manager/colleagues,RXK,Acute&Acute Community Trusts,0.0628205128205128,0.1500465983224604,2.3884968712554926
+Q16b: Discrimination from manager/colleagues,RXL,Acute&Acute Community Trusts,0.0696296296296296,0.201058201058201,2.887537993920973
+Q16b: Discrimination from manager/colleagues,RXN,Acute&Acute Community Trusts,0.0633940182054616,0.1430348258706467,2.2562826891185104
+Q16b: Discrimination from manager/colleagues,RXP,Acute&Acute Community Trusts,0.0589332338679597,0.1954545454545454,3.316542002301496
+Q16b: Discrimination from manager/colleagues,RXQ,Acute&Acute Community Trusts,0.0586353944562899,0.130817610062893,2.2310348770726143
+Q16b: Discrimination from manager/colleagues,RXR,Acute&Acute Community Trusts,0.0608190709046454,0.1577102803738317,2.5931057154933566
+Q16b: Discrimination from manager/colleagues,RXW,Acute&Acute Community Trusts,0.0595572185843467,0.1770972037283621,2.9735640437531816
+Q16b: Discrimination from manager/colleagues,RYJ,Acute&Acute Community Trusts,0.0871632329635499,0.1307378442706562,1.4999196315415289
+Q16b: Discrimination from manager/colleagues,RYR,Acute&Acute Community Trusts,0.0746293519906713,0.1412520064205457,1.8927138271038753
+Q16b: Discrimination from manager/colleagues,RAN,Acute Specialist Trusts,0.0899742930591259,0.1364705882352941,1.5167731092436985
+Q16b: Discrimination from manager/colleagues,RBQ,Acute Specialist Trusts,0.0344444444444444,0.0560747663551401,1.627977087729876
+Q16b: Discrimination from manager/colleagues,RBV,Acute Specialist Trusts,0.0576923076923076,0.1191222570532915,2.064785788923723
+Q16b: Discrimination from manager/colleagues,REN,Acute Specialist Trusts,0.0344262295081967,0.0964912280701754,2.8028404344193825
+Q16b: Discrimination from manager/colleagues,REP,Acute Specialist Trusts,0.0728643216080402,0.1372549019607843,1.8837052062204191
+Q16b: Discrimination from manager/colleagues,RET,Acute Specialist Trusts,0.0563139931740614,0.1046511627906976,1.858350951374207
+Q16b: Discrimination from manager/colleagues,RGM,Acute Specialist Trusts,0.1075027995520716,0.2193548387096774,2.040456989247313
+Q16b: Discrimination from manager/colleagues,RL1,Acute Specialist Trusts,0.0423076923076923,0.1851851851851851,4.377104377104375
+Q16b: Discrimination from manager/colleagues,RP4,Acute Specialist Trusts,0.0674662668665667,0.1347402597402597,1.9971500721500717
+Q16b: Discrimination from manager/colleagues,RP6,Acute Specialist Trusts,0.0762987012987013,0.1507582515611061,1.975895382162582
+Q16b: Discrimination from manager/colleagues,RPC,Acute Specialist Trusts,0.0685714285714285,0.1328125,1.9368489583333353
+Q16b: Discrimination from manager/colleagues,RPY,Acute Specialist Trusts,0.0662100456621004,0.1751724137931034,2.645707491082047
+Q16b: Discrimination from manager/colleagues,RRJ,Acute Specialist Trusts,0.0787545787545787,0.1785714285714285,2.2674418604651168
+Q16b: Discrimination from manager/colleagues,R1D,Community Trusts,0.0453703703703703,0.1411764705882353,3.1116446578631503
+Q16b: Discrimination from manager/colleagues,RDR,Community Trusts,0.0443414956982131,0.1073943661971831,2.4219833928946817
+Q16b: Discrimination from manager/colleagues,RY2,Community Trusts,0.0464864864864864,0.1320754716981132,2.8411584028082544
+Q16b: Discrimination from manager/colleagues,RY3,Community Trusts,0.045084533500313,0.0964912280701754,2.140229044834311
+Q16b: Discrimination from manager/colleagues,RY4,Community Trusts,0.0388719512195121,0.0889679715302491,2.288744679366414
+Q16b: Discrimination from manager/colleagues,RY5,Community Trusts,0.0529100529100529,0.1756756756756756,3.3202702702702696
+Q16b: Discrimination from manager/colleagues,RY6,Community Trusts,0.0393794749403341,0.0761245674740484,1.9331026528258366
+Q16b: Discrimination from manager/colleagues,RY7,Community Trusts,0.0440835266821345,0.0909090909090909,2.062200956937802
+Q16b: Discrimination from manager/colleagues,RY8,Community Trusts,0.0445329471397538,0.117391304347826,2.6360551431601253
+Q16b: Discrimination from manager/colleagues,RY9,Community Trusts,0.0389105058365758,0.0924369747899159,2.3756302521008434
+Q16b: Discrimination from manager/colleagues,RYV,Community Trusts,0.0364166059723233,0.0883720930232558,2.4266976744186093
+Q16b: Discrimination from manager/colleagues,RYW,Community Trusts,0.0670632774472688,0.1422893481717011,2.1217177803989946
+Q16b: Discrimination from manager/colleagues,RYX,Community Trusts,0.0694945848375451,0.0897875257025359,1.2920075127066208
+Q16b: Discrimination from manager/colleagues,RYY,Community Trusts,0.0423841059602649,0.1106382978723404,2.6103723404255312
+Q16b: Discrimination from manager/colleagues,RRU,Ambulance Trusts,0.105964753727971,0.1529492455418381,1.443397357714661
+Q16b: Discrimination from manager/colleagues,RX6,Ambulance Trusts,0.1050800278357689,0.2692307692307692,2.5621497707590435
+Q16b: Discrimination from manager/colleagues,RX7,Ambulance Trusts,0.1006191950464396,0.1235521235521235,1.2279180279180277
+Q16b: Discrimination from manager/colleagues,RX8,Ambulance Trusts,0.0780020526855969,0.202020202020202,2.5899344320396978
+Q16b: Discrimination from manager/colleagues,RX9,Ambulance Trusts,0.0931254996003197,0.128440366972477,1.379218017876127
+Q16b: Discrimination from manager/colleagues,RYA,Ambulance Trusts,0.0987062769525634,0.1867816091954023,1.892297176654393
+Q16b: Discrimination from manager/colleagues,RYC,Ambulance Trusts,0.1286713286713286,0.1683168316831683,1.3081145071028848
+Q16b: Discrimination from manager/colleagues,RYD,Ambulance Trusts,0.101908657123381,0.1301115241635687,1.276746528079969
+Q16b: Discrimination from manager/colleagues,RYE,Ambulance Trusts,0.1012594458438287,0.1318681318681318,1.3022798097424957
+Q16b: Discrimination from manager/colleagues,RYF,Ambulance Trusts,0.1135276207046541,0.1511627906976744,1.331506727256528
+Harassment from patients (by ethnicity),R0A,Acute&Acute Community Trusts,0.21738638932851,0.2565432098765432,1.1801254469931888
+Harassment from patients (by ethnicity),R0B,Acute&Acute Community Trusts,0.2605042016806723,0.3547646383467279,1.3618384504277619
+Harassment from patients (by ethnicity),R0D,Acute&Acute Community Trusts,0.2186108637577916,0.2735674676524954,1.2513900862474638
+Harassment from patients (by ethnicity),R1F1,Acute&Acute Community Trusts,0.2127659574468085,0.3303964757709251,1.552863436123348
+Harassment from patients (by ethnicity),R1H,Acute&Acute Community Trusts,0.2658469945355191,0.2962600032663727,1.1144004233863558
+Harassment from patients (by ethnicity),R1K,Acute&Acute Community Trusts,0.2797761790567546,0.3226390685640362,1.1532042136388836
+Harassment from patients (by ethnicity),RA2,Acute&Acute Community Trusts,0.2175015852885225,0.2637889688249401,1.2128140053554826
+Harassment from patients (by ethnicity),RA7,Acute&Acute Community Trusts,0.2185080264400377,0.2475355969331873,1.132844412931052
+Harassment from patients (by ethnicity),RA9,Acute&Acute Community Trusts,0.2147165259348613,0.2788104089219331,1.298504657282486
+Harassment from patients (by ethnicity),RAE,Acute&Acute Community Trusts,0.2338461538461538,0.2380178716490658,1.017839582709821
+Harassment from patients (by ethnicity),RAJ,Acute&Acute Community Trusts,0.2640977443609023,0.2971542025148908,1.1251675141489101
+Harassment from patients (by ethnicity),RAL,Acute&Acute Community Trusts,0.2876865671641791,0.3230447292702066,1.1229051549210813
+Harassment from patients (by ethnicity),RAP,Acute&Acute Community Trusts,0.273164861612515,0.2988235294117647,1.0939310702254472
+Harassment from patients (by ethnicity),RAS,Acute&Acute Community Trusts,0.2769423558897243,0.3010546500479386,1.0870661119378053
+Harassment from patients (by ethnicity),RAX,Acute&Acute Community Trusts,0.2877697841726618,0.3130217028380634,1.0877504173622705
+Harassment from patients (by ethnicity),RBD,Acute&Acute Community Trusts,0.2017543859649122,0.2507645259938837,1.2429198244914241
+Harassment from patients (by ethnicity),RBK,Acute&Acute Community Trusts,0.2393310265282583,0.327641408751334,1.368988440421237
+Harassment from patients (by ethnicity),RBL,Acute&Acute Community Trusts,0.2131941856131196,0.2815013404825737,1.3203987701306739
+Harassment from patients (by ethnicity),RBN,Acute&Acute Community Trusts,0.1924095322153574,0.2556701030927835,1.3287808568996504
+Harassment from patients (by ethnicity),RBS,Acute&Acute Community Trusts,0.1376186367558239,0.1458966565349544,1.0601518804013308
+Harassment from patients (by ethnicity),RBT,Acute&Acute Community Trusts,0.2003789673140691,0.3028169014084507,1.5112209902440652
+Harassment from patients (by ethnicity),RC9,Acute&Acute Community Trusts,0.2763596004439512,0.2734982332155477,0.9896462173783473
+Harassment from patients (by ethnicity),RCB,Acute&Acute Community Trusts,0.2174168873197999,0.3098159509202454,1.4249856795370963
+Harassment from patients (by ethnicity),RCD,Acute&Acute Community Trusts,0.1834123222748815,0.2786885245901639,1.5194645655949508
+Harassment from patients (by ethnicity),RCF,Acute&Acute Community Trusts,0.2236421725239616,0.2462121212121212,1.1009199134199137
+Harassment from patients (by ethnicity),RCU,Acute&Acute Community Trusts,0.1757134862898713,0.1711026615969581,0.9737594148845992
+Harassment from patients (by ethnicity),RCX,Acute&Acute Community Trusts,0.2335369993211133,0.337468982630273,1.4450343355069541
+Harassment from patients (by ethnicity),RD1,Acute&Acute Community Trusts,0.2405589123867069,0.3428571428571428,1.4252522987216865
+Harassment from patients (by ethnicity),RD8,Acute&Acute Community Trusts,0.2480190174326466,0.2840512223515716,1.1452800083312566
+Harassment from patients (by ethnicity),RDE,Acute&Acute Community Trusts,0.2478153708267981,0.3028169014084507,1.2219455976364515
+Harassment from patients (by ethnicity),RDU,Acute&Acute Community Trusts,0.2265135699373695,0.3028790786948176,1.3371343658508539
+Harassment from patients (by ethnicity),REF,Acute&Acute Community Trusts,0.2005329780146569,0.3228346456692913,1.6098830669422135
+Harassment from patients (by ethnicity),REM,Acute&Acute Community Trusts,0.2052735337604731,0.2467391304347826,1.202001670233311
+Harassment from patients (by ethnicity),RF4,Acute&Acute Community Trusts,0.2796336206896552,0.3184438040345821,1.1387894032527637
+Harassment from patients (by ethnicity),RFF,Acute&Acute Community Trusts,0.2327497425334706,0.2920962199312715,1.254979776784357
+Harassment from patients (by ethnicity),RFR,Acute&Acute Community Trusts,0.2213592233009708,0.2645011600928074,1.194895591647332
+Harassment from patients (by ethnicity),RFS,Acute&Acute Community Trusts,0.2659984579799537,0.3472222222222222,1.3053542673107892
+Harassment from patients (by ethnicity),RGN,Acute&Acute Community Trusts,0.2780688622754491,0.3633093525179856,1.306544535569391
+Harassment from patients (by ethnicity),RGP,Acute&Acute Community Trusts,0.2743813682678311,0.334375,1.218650530503979
+Harassment from patients (by ethnicity),RGR,Acute&Acute Community Trusts,0.2180929095354523,0.3210702341137124,1.472171813368928
+Harassment from patients (by ethnicity),RGT,Acute&Acute Community Trusts,0.2125371768474033,0.2336261980830671,1.0992250934564978
+Harassment from patients (by ethnicity),RH5,Acute&Acute Community Trusts,0.2202380952380952,0.2826267664172901,1.2832782907595877
+Harassment from patients (by ethnicity),RH8,Acute&Acute Community Trusts,0.1942088934850051,0.2644135188866799,1.3614902703057483
+Harassment from patients (by ethnicity),RHM,Acute&Acute Community Trusts,0.2198297446169254,0.2805358550039401,1.2761505750407025
+Harassment from patients (by ethnicity),RHQ,Acute&Acute Community Trusts,0.2185920789752027,0.2476024411508282,1.132714608469031
+Harassment from patients (by ethnicity),RHU,Acute&Acute Community Trusts,0.2553577915001816,0.3560334528076463,1.394253336528379
+Harassment from patients (by ethnicity),RHW,Acute&Acute Community Trusts,0.2624633431085044,0.2578616352201258,0.9824672358666245
+Harassment from patients (by ethnicity),RJ1,Acute&Acute Community Trusts,0.2532842037808395,0.2454167308581112,0.9689381619331625
+Harassment from patients (by ethnicity),RJ2,Acute&Acute Community Trusts,0.2798483891345546,0.3609885260370697,1.2899431980060527
+Harassment from patients (by ethnicity),RJ6,Acute&Acute Community Trusts,0.2872996300863132,0.3262068965517241,1.1354240047358293
+Harassment from patients (by ethnicity),RJ7,Acute&Acute Community Trusts,0.2902533276084156,0.2522407170294494,0.8690364348544196
+Harassment from patients (by ethnicity),RJC,Acute&Acute Community Trusts,0.222694432639184,0.2338709677419354,1.0501877616350648
+Harassment from patients (by ethnicity),RJE,Acute&Acute Community Trusts,0.2337573830077237,0.2691652470187393,1.1514727088206906
+Harassment from patients (by ethnicity),RJL,Acute&Acute Community Trusts,0.2177661169415292,0.3411764705882353,1.566710539637542
+Harassment from patients (by ethnicity),RJN,Acute&Acute Community Trusts,0.219070133963751,0.3079365079365079,1.4056526207605342
+Harassment from patients (by ethnicity),RJR,Acute&Acute Community Trusts,0.269418794133623,0.3443223443223443,1.278019023986766
+Harassment from patients (by ethnicity),RJZ,Acute&Acute Community Trusts,0.3068143672373279,0.3447230642050151,1.1235558077316632
+Harassment from patients (by ethnicity),RK5,Acute&Acute Community Trusts,0.2297252565375703,0.3097826086956521,1.348491730359604
+Harassment from patients (by ethnicity),RK9,Acute&Acute Community Trusts,0.2204383282364933,0.2896341463414634,1.3139010291837026
+Harassment from patients (by ethnicity),RKB,Acute&Acute Community Trusts,0.2569587628865979,0.2830570157703194,1.1015659189456763
+Harassment from patients (by ethnicity),RKE,Acute&Acute Community Trusts,0.2299065420560747,0.2828035859820701,1.2300806382146956
+Harassment from patients (by ethnicity),RL4,Acute&Acute Community Trusts,0.1999275624773632,0.2341772151898734,1.1713103100348563
+Harassment from patients (by ethnicity),RLQ,Acute&Acute Community Trusts,0.233304423243712,0.2278481012658227,0.9766128652769279
+Harassment from patients (by ethnicity),RLT,Acute&Acute Community Trusts,0.2056384742951907,0.2716297786720322,1.320909326929318
+Harassment from patients (by ethnicity),RM1,Acute&Acute Community Trusts,0.2458130740140464,0.2835408022130014,1.1534813733983862
+Harassment from patients (by ethnicity),RM3,Acute&Acute Community Trusts,0.22274491355992,0.2940938511326861,1.3203167984061406
+Harassment from patients (by ethnicity),RMC,Acute&Acute Community Trusts,0.2381562099871959,0.2362204724409448,0.9918719837439672
+Harassment from patients (by ethnicity),RMP,Acute&Acute Community Trusts,0.2314211212516297,0.2632911392405063,1.137714387591371
+Harassment from patients (by ethnicity),RN3,Acute&Acute Community Trusts,0.2528937215012276,0.2795366795366795,1.1053523902344986
+Harassment from patients (by ethnicity),RN5,Acute&Acute Community Trusts,0.2224614280588446,0.2875536480686695,1.292600027689326
+Harassment from patients (by ethnicity),RN7,Acute&Acute Community Trusts,0.2579185520361991,0.3176761433868974,1.2316917138334091
+Harassment from patients (by ethnicity),RNA,Acute&Acute Community Trusts,0.2166897187644075,0.2696629213483146,1.2444656944776478
+Harassment from patients (by ethnicity),RNN,Acute&Acute Community Trusts,0.2138228941684665,0.2840909090909091,1.3286271808999084
+Harassment from patients (by ethnicity),RNQ,Acute&Acute Community Trusts,0.2624854819976771,0.3211125158027813,1.2233534340982068
+Harassment from patients (by ethnicity),RNS,Acute&Acute Community Trusts,0.272887323943662,0.2965900079302141,1.0868588677700748
+Harassment from patients (by ethnicity),RNZ,Acute&Acute Community Trusts,0.2182291666666666,0.2297687861271676,1.0528784471698376
+Harassment from patients (by ethnicity),RP5,Acute&Acute Community Trusts,0.2364847553164232,0.2833607907742998,1.1982201152677059
+Harassment from patients (by ethnicity),RPA,Acute&Acute Community Trusts,0.2485207100591716,0.3733905579399141,1.5024524831391781
+Harassment from patients (by ethnicity),RQ3,Acute&Acute Community Trusts,0.2014634146341463,0.2025586353944563,1.005436325807834
+Harassment from patients (by ethnicity),RQM,Acute&Acute Community Trusts,0.3392857142857143,0.3835368611488014,1.1304244328596251
+Harassment from patients (by ethnicity),RQW,Acute&Acute Community Trusts,0.2682926829268293,0.2779255319148936,1.0359042553191489
+Harassment from patients (by ethnicity),RQX,Acute&Acute Community Trusts,0.2987012987012987,0.3311748381128584,1.1087157623778303
+Harassment from patients (by ethnicity),RR7,Acute&Acute Community Trusts,0.2018173122907699,0.2653846153846154,1.314974480495808
+Harassment from patients (by ethnicity),RR8,Acute&Acute Community Trusts,0.212645268400664,0.2500978473581213,1.176127027133703
+Harassment from patients (by ethnicity),RRF,Acute&Acute Community Trusts,0.183219954648526,0.2395833333333333,1.307626856435644
+Harassment from patients (by ethnicity),RRK,Acute&Acute Community Trusts,0.2275707384403036,0.2387428226050166,1.0490927974364492
+Harassment from patients (by ethnicity),RRV,Acute&Acute Community Trusts,0.2849187935034802,0.3070255474452554,1.0775896657076964
+Harassment from patients (by ethnicity),RTD,Acute&Acute Community Trusts,0.2202801250144692,0.2466453674121405,1.1196896106534326
+Harassment from patients (by ethnicity),RTE,Acute&Acute Community Trusts,0.2228796844181459,0.2816091954022988,1.2635032041501373
+Harassment from patients (by ethnicity),RTF,Acute&Acute Community Trusts,0.2059601481220243,0.2384615384615384,1.1578042676501579
+Harassment from patients (by ethnicity),RTG,Acute&Acute Community Trusts,0.2352530541012216,0.2765726681127983,1.1756390120818505
+Harassment from patients (by ethnicity),RTH,Acute&Acute Community Trusts,0.2083421554096972,0.2452090592334495,1.1769536450808762
+Harassment from patients (by ethnicity),RTK,Acute&Acute Community Trusts,0.2294077603812117,0.2707340324118207,1.1801433044895093
+Harassment from patients (by ethnicity),RTP,Acute&Acute Community Trusts,0.2682926829268293,0.3088372093023255,1.1511205073995767
+Harassment from patients (by ethnicity),RTR,Acute&Acute Community Trusts,0.2198165137614678,0.2437275985663082,1.1087774726096664
+Harassment from patients (by ethnicity),RTX,Acute&Acute Community Trusts,0.2216614906832298,0.2793427230046948,1.2602221619266092
+Harassment from patients (by ethnicity),RVJ,Acute&Acute Community Trusts,0.2446644664466446,0.244249726177437,0.9983048610399743
+Harassment from patients (by ethnicity),RVR,Acute&Acute Community Trusts,0.2541176470588235,0.2484737484737484,0.9777902139013248
+Harassment from patients (by ethnicity),RVV,Acute&Acute Community Trusts,0.2668052668052668,0.3232998885172798,1.2117447769621683
+Harassment from patients (by ethnicity),RVW,Acute&Acute Community Trusts,0.212890625,0.3397683397683397,1.5959760546916506
+Harassment from patients (by ethnicity),RWA,Acute&Acute Community Trusts,0.2403924775143091,0.320600272851296,1.3336535159766496
+Harassment from patients (by ethnicity),RWD,Acute&Acute Community Trusts,0.2066433566433566,0.2445482866043613,1.1834316407588383
+Harassment from patients (by ethnicity),RWE,Acute&Acute Community Trusts,0.2178385016886705,0.2029401824940858,0.9316084205542461
+Harassment from patients (by ethnicity),RWF,Acute&Acute Community Trusts,0.2335705316031812,0.2648601398601398,1.133962140010527
+Harassment from patients (by ethnicity),RWG,Acute&Acute Community Trusts,0.2507682851874616,0.3313086692435119,1.3211745217137103
+Harassment from patients (by ethnicity),RWH,Acute&Acute Community Trusts,0.257716049382716,0.3103709311127933,1.2043135530604199
+Harassment from patients (by ethnicity),RWJ,Acute&Acute Community Trusts,0.2092501122586439,0.2655038759689923,1.268835046744519
+Harassment from patients (by ethnicity),RWP,Acute&Acute Community Trusts,0.2351664254703328,0.2469696969696969,1.050191142191142
+Harassment from patients (by ethnicity),RWW,Acute&Acute Community Trusts,0.1975435005117707,0.2951219512195122,1.4939593074687225
+Harassment from patients (by ethnicity),RWY,Acute&Acute Community Trusts,0.2359249329758713,0.2620320855614973,1.1106587263004375
+Harassment from patients (by ethnicity),RX1,Acute&Acute Community Trusts,0.2278617710583153,0.3188336520076482,1.3992415249245607
+Harassment from patients (by ethnicity),RXC,Acute&Acute Community Trusts,0.2327694235588972,0.3134535367545076,1.3466267689372657
+Harassment from patients (by ethnicity),RXF,Acute&Acute Community Trusts,0.2421900161030595,0.297843665768194,1.2297933274072375
+Harassment from patients (by ethnicity),RXK,Acute&Acute Community Trusts,0.1791613722998729,0.2601102941176471,1.451821287025449
+Harassment from patients (by ethnicity),RXL,Acute&Acute Community Trusts,0.2134468584850264,0.3028169014084507,1.4186992657457815
+Harassment from patients (by ethnicity),RXN,Acute&Acute Community Trusts,0.2256410256410256,0.2071078431372549,0.9178643048128343
+Harassment from patients (by ethnicity),RXP,Acute&Acute Community Trusts,0.2650957290132548,0.2997711670480549,1.1308034579201627
+Harassment from patients (by ethnicity),RXQ,Acute&Acute Community Trusts,0.2420382165605095,0.2624069478908188,1.0841550215489095
+Harassment from patients (by ethnicity),RXR,Acute&Acute Community Trusts,0.2424334140435835,0.2431192660550458,1.0028290325166933
+Harassment from patients (by ethnicity),RXW,Acute&Acute Community Trusts,0.206575682382134,0.2657894736842105,1.286644539276118
+Harassment from patients (by ethnicity),RYJ,Acute&Acute Community Trusts,0.2972546544651309,0.2961409395973154,0.9962533307684637
+Harassment from patients (by ethnicity),RYR,Acute&Acute Community Trusts,0.2711808422791081,0.3270142180094786,1.2058898234149777
+Harassment from patients (by ethnicity),RAN,Acute Specialist Trusts,0.2309644670050761,0.1943127962085308,0.8413103484193533
+Harassment from patients (by ethnicity),RBQ,Acute Specialist Trusts,0.1236323851203501,0.136986301369863,1.10801309249606
+Harassment from patients (by ethnicity),RBV,Acute Specialist Trusts,0.1137005649717514,0.0962732919254658,0.8467265923382582
+Harassment from patients (by ethnicity),REN,Acute Specialist Trusts,0.105092966855295,0.1478260869565217,1.4066220735785957
+Harassment from patients (by ethnicity),REP,Acute Specialist Trusts,0.1905354919053549,0.1862745098039215,0.9776368063565292
+Harassment from patients (by ethnicity),RET,Acute Specialist Trusts,0.2385786802030456,0.2528735632183908,1.0599168500855958
+Harassment from patients (by ethnicity),RGM,Acute Specialist Trusts,0.173289183222958,0.2204968944099379,1.272421569015311
+Harassment from patients (by ethnicity),RL1,Acute Specialist Trusts,0.1773778920308483,0.2982456140350877,1.6814136791253498
+Harassment from patients (by ethnicity),RP4,Acute Specialist Trusts,0.172962226640159,0.1373182552504038,0.7939204872523349
+Harassment from patients (by ethnicity),RP6,Acute Specialist Trusts,0.2343499197431781,0.225377107364685,0.9617119033438274
+Harassment from patients (by ethnicity),RPC,Acute Specialist Trusts,0.1913696060037523,0.28125,1.469669117647059
+Harassment from patients (by ethnicity),RPY,Acute Specialist Trusts,0.1379833206974981,0.1953232462173315,1.4155569327508803
+Harassment from patients (by ethnicity),RRJ,Acute Specialist Trusts,0.1715328467153284,0.1507936507936507,0.879094900371496
+Harassment from patients (by ethnicity),R1D,Community Trusts,0.1934005499541705,0.2093023255813953,1.0822219772952715
+Harassment from patients (by ethnicity),RDR,Community Trusts,0.1681474169134584,0.2280701754385964,1.3563703779997933
+Harassment from patients (by ethnicity),RY2,Community Trusts,0.1353944562899786,0.2075471698113207,1.5329074431733776
+Harassment from patients (by ethnicity),RY3,Community Trusts,0.1962616822429906,0.2413793103448276,1.2298850574712648
+Harassment from patients (by ethnicity),RY4,Community Trusts,0.1595505617977528,0.1818181818181818,1.1395646606914214
+Harassment from patients (by ethnicity),RY5,Community Trusts,0.2040280210157618,0.3289473684210526,1.612265642647391
+Harassment from patients (by ethnicity),RY6,Community Trusts,0.1786350148367952,0.2363013698630137,1.322816638601921
+Harassment from patients (by ethnicity),RY7,Community Trusts,0.1601382488479262,0.2127659574468085,1.3286392162865457
+Harassment from patients (by ethnicity),RY8,Community Trusts,0.1724137931034483,0.2236286919831223,1.2970464135021091
+Harassment from patients (by ethnicity),RY9,Community Trusts,0.1853281853281853,0.1935483870967742,1.0443548387096775
+Harassment from patients (by ethnicity),RYV,Community Trusts,0.136098981077147,0.1953488372093023,1.435343862703644
+Harassment from patients (by ethnicity),RYW,Community Trusts,0.2015086206896551,0.2260596546310832,1.1218361470462315
+Harassment from patients (by ethnicity),RYX,Community Trusts,0.1992914083259521,0.2189586114819759,1.0986856549473372
+Harassment from patients (by ethnicity),RYY,Community Trusts,0.1342941369145103,0.200836820083682,1.4954995407694665
+Harassment from patients (by ethnicity),RRU,Ambulance Trusts,0.511690046760187,0.4348413234301148,0.8498139179828744
+Harassment from patients (by ethnicity),RX6,Ambulance Trusts,0.4562631210636809,0.320754716981132,0.7030038198865608
+Harassment from patients (by ethnicity),RX7,Ambulance Trusts,0.3727774371551196,0.3436293436293436,0.921808321479374
+Harassment from patients (by ethnicity),RX8,Ambulance Trusts,0.4191351719441607,0.4257425742574257,1.0157643709131268
+Harassment from patients (by ethnicity),RX9,Ambulance Trusts,0.4203069657615112,0.2869565217391304,0.6827308255984367
+Harassment from patients (by ethnicity),RYA,Ambulance Trusts,0.4917230123571928,0.4747191011235955,0.9654197367089148
+Harassment from patients (by ethnicity),RYC,Ambulance Trusts,0.4103448275862069,0.3251231527093596,0.7923169267707083
+Harassment from patients (by ethnicity),RYD,Ambulance Trusts,0.473595125253893,0.5147058823529411,1.0868057015515282
+Harassment from patients (by ethnicity),RYE,Ambulance Trusts,0.3979135618479881,0.3333333333333333,0.8377028714107365
+Harassment from patients (by ethnicity),RYF,Ambulance Trusts,0.3751611516974645,0.3448275862068966,0.919145238377375
+Harassment from staff (by ethnicity),R0A,Acute&Acute Community Trusts,0.1951632952876031,0.2313967861557478,1.1856573020800305
+Harassment from staff (by ethnicity),R0B,Acute&Acute Community Trusts,0.1977848101265822,0.2982658959537572,1.508032369942197
+Harassment from staff (by ethnicity),R0D,Acute&Acute Community Trusts,0.177361853832442,0.2391505078485687,1.348376230181378
+Harassment from staff (by ethnicity),R1F1,Acute&Acute Community Trusts,0.2764140875133404,0.2321428571428571,0.8398372862658576
+Harassment from staff (by ethnicity),R1H,Acute&Acute Community Trusts,0.2603825136612022,0.283046683046683,1.0870418257616576
+Harassment from staff (by ethnicity),R1K,Acute&Acute Community Trusts,0.2218675179569034,0.2419229775135694,1.0903938518866996
+Harassment from staff (by ethnicity),RA2,Acute&Acute Community Trusts,0.1853503184713375,0.1956521739130435,1.0555804571940839
+Harassment from staff (by ethnicity),RA7,Acute&Acute Community Trusts,0.1820765441455096,0.2132231404958677,1.1710632003508743
+Harassment from staff (by ethnicity),RA9,Acute&Acute Community Trusts,0.2354124748490945,0.2398523985239852,1.0188601886018862
+Harassment from staff (by ethnicity),RAE,Acute&Acute Community Trusts,0.1775824175824175,0.2295877122069523,1.2928515972049919
+Harassment from staff (by ethnicity),RAJ,Acute&Acute Community Trusts,0.2809120827456511,0.2970627503337784,1.0574936735731326
+Harassment from staff (by ethnicity),RAL,Acute&Acute Community Trusts,0.2430115542303391,0.2650602409638554,1.0907310222485034
+Harassment from staff (by ethnicity),RAP,Acute&Acute Community Trusts,0.2433414043583535,0.2606002858504049,1.0709245577733058
+Harassment from staff (by ethnicity),RAS,Acute&Acute Community Trusts,0.2261306532663316,0.2367149758454106,1.0468062265163716
+Harassment from staff (by ethnicity),RAX,Acute&Acute Community Trusts,0.201867816091954,0.2600334448160535,1.2881372070603079
+Harassment from staff (by ethnicity),RBD,Acute&Acute Community Trusts,0.2139737991266375,0.2415902140672783,1.1290644698246275
+Harassment from staff (by ethnicity),RBK,Acute&Acute Community Trusts,0.225825130283729,0.2991360691144708,1.3246358752838234
+Harassment from staff (by ethnicity),RBL,Acute&Acute Community Trusts,0.1997746901990236,0.2201086956521739,1.101784692710036
+Harassment from staff (by ethnicity),RBN,Acute&Acute Community Trusts,0.1786344908769864,0.2004132231404958,1.1219178455212602
+Harassment from staff (by ethnicity),RBS,Acute&Acute Community Trusts,0.1369150779896014,0.1884498480243161,1.3763995229117771
+Harassment from staff (by ethnicity),RBT,Acute&Acute Community Trusts,0.1859035004730369,0.2746478873239437,1.4773680249435546
+Harassment from staff (by ethnicity),RC9,Acute&Acute Community Trusts,0.24819143016138,0.2558970693352395,1.0310471605278597
+Harassment from staff (by ethnicity),RCB,Acute&Acute Community Trusts,0.246321365509123,0.2975460122699386,1.2079586017840518
+Harassment from staff (by ethnicity),RCD,Acute&Acute Community Trusts,0.1642214860388073,0.2712418300653594,1.6516829594469877
+Harassment from staff (by ethnicity),RCF,Acute&Acute Community Trusts,0.1961569255404323,0.2167300380228136,1.104880887716303
+Harassment from staff (by ethnicity),RCU,Acute&Acute Community Trusts,0.1531127313516545,0.2015209125475285,1.3161603922060194
+Harassment from staff (by ethnicity),RCX,Acute&Acute Community Trusts,0.262660364618501,0.3115577889447236,1.1861621733345389
+Harassment from staff (by ethnicity),RD1,Acute&Acute Community Trusts,0.1967522658610272,0.2693370165745856,1.3689144335691028
+Harassment from staff (by ethnicity),RD8,Acute&Acute Community Trusts,0.2291831879460745,0.2292397660818713,1.0002468686132864
+Harassment from staff (by ethnicity),RDE,Acute&Acute Community Trusts,0.2127802690582959,0.2437106918238993,1.145363209203995
+Harassment from staff (by ethnicity),RDU,Acute&Acute Community Trusts,0.1862574119288454,0.2073643410852713,1.1133212844409608
+Harassment from staff (by ethnicity),REF,Acute&Acute Community Trusts,0.2230359520639147,0.3490813648293963,1.5651349551455327
+Harassment from staff (by ethnicity),REM,Acute&Acute Community Trusts,0.2179045745204131,0.2329360780065005,1.0689820464722704
+Harassment from staff (by ethnicity),RF4,Acute&Acute Community Trusts,0.243010752688172,0.2706902782797253,1.1139024725670115
+Harassment from staff (by ethnicity),RFF,Acute&Acute Community Trusts,0.15600624024961,0.3183391003460207,2.0405536332179928
+Harassment from staff (by ethnicity),RFR,Acute&Acute Community Trusts,0.1323877068557919,0.2106481481481481,1.5911458333333337
+Harassment from staff (by ethnicity),RFS,Acute&Acute Community Trusts,0.1683397683397683,0.2384259259259259,1.4163374957526336
+Harassment from staff (by ethnicity),RGN,Acute&Acute Community Trusts,0.2671898355754858,0.3107497741644083,1.1630299240055337
+Harassment from staff (by ethnicity),RGP,Acute&Acute Community Trusts,0.2316096139839767,0.3260188087774294,1.4076220894698446
+Harassment from staff (by ethnicity),RGR,Acute&Acute Community Trusts,0.2306562193927522,0.2990033222591362,1.2963158897094609
+Harassment from staff (by ethnicity),RGT,Acute&Acute Community Trusts,0.2321796928718771,0.2392613408269771,1.0305007206595274
+Harassment from staff (by ethnicity),RH5,Acute&Acute Community Trusts,0.1828337367343139,0.2289562289562289,1.2522646697799444
+Harassment from staff (by ethnicity),RH8,Acute&Acute Community Trusts,0.1915113871635611,0.2350597609561753,1.2273931301819747
+Harassment from staff (by ethnicity),RHM,Acute&Acute Community Trusts,0.1784638554216867,0.2199367088607595,1.2323879720130326
+Harassment from staff (by ethnicity),RHQ,Acute&Acute Community Trusts,0.1692561205273069,0.2079337401918047,1.22851533843503
+Harassment from staff (by ethnicity),RHU,Acute&Acute Community Trusts,0.2260174418604651,0.2879518072289156,1.274024716228257
+Harassment from staff (by ethnicity),RHW,Acute&Acute Community Trusts,0.2038216560509554,0.1829113924050633,0.8974090189873418
+Harassment from staff (by ethnicity),RJ1,Acute&Acute Community Trusts,0.2312369979196671,0.24674317617866,1.067057514145638
+Harassment from staff (by ethnicity),RJ2,Acute&Acute Community Trusts,0.2257861635220125,0.2468916518650089,1.0934755611848588
+Harassment from staff (by ethnicity),RJ6,Acute&Acute Community Trusts,0.2441140024783147,0.248780487804878,1.0191160084189674
+Harassment from staff (by ethnicity),RJ7,Acute&Acute Community Trusts,0.2584800343495062,0.2804982817869416,1.0851835519631012
+Harassment from staff (by ethnicity),RJC,Acute&Acute Community Trusts,0.1853575962759204,0.216867469879518,1.169995048687902
+Harassment from staff (by ethnicity),RJE,Acute&Acute Community Trusts,0.2547020167686381,0.2596071733561059,1.0192584128296223
+Harassment from staff (by ethnicity),RJL,Acute&Acute Community Trusts,0.2352941176470588,0.3122529644268774,1.327075098814229
+Harassment from staff (by ethnicity),RJN,Acute&Acute Community Trusts,0.1913385826771653,0.2371794871794871,1.239580035876332
+Harassment from staff (by ethnicity),RJR,Acute&Acute Community Trusts,0.2318526543878656,0.2783882783882784,1.2007120605251451
+Harassment from staff (by ethnicity),RJZ,Acute&Acute Community Trusts,0.2632461435278336,0.2788647010195646,1.059330622216996
+Harassment from staff (by ethnicity),RK5,Acute&Acute Community Trusts,0.1777999335327351,0.2578875171467764,1.4504365216722435
+Harassment from staff (by ethnicity),RK9,Acute&Acute Community Trusts,0.2390306122448979,0.2629179331306991,1.0999341492767778
+Harassment from staff (by ethnicity),RKB,Acute&Acute Community Trusts,0.2184678875419138,0.2482786553260429,1.1364537741429381
+Harassment from staff (by ethnicity),RKE,Acute&Acute Community Trusts,0.2089971883786316,0.2413509060955519,1.1548045596589864
+Harassment from staff (by ethnicity),RL4,Acute&Acute Community Trusts,0.2407272727272727,0.2853236098450319,1.1852566874227157
+Harassment from staff (by ethnicity),RLQ,Acute&Acute Community Trusts,0.2160760587726879,0.2742616033755274,1.2692827004219414
+Harassment from staff (by ethnicity),RLT,Acute&Acute Community Trusts,0.2266335814722911,0.236,1.041328467153285
+Harassment from staff (by ethnicity),RM1,Acute&Acute Community Trusts,0.2474338195569962,0.2946058091286307,1.190644874884488
+Harassment from staff (by ethnicity),RM3,Acute&Acute Community Trusts,0.1763182674199623,0.2477768795472918,1.4052819550292335
+Harassment from staff (by ethnicity),RMC,Acute&Acute Community Trusts,0.1646002565198802,0.2074363992172211,1.2602434747248843
+Harassment from staff (by ethnicity),RMP,Acute&Acute Community Trusts,0.22920759659463,0.2839195979899497,1.2387006460875805
+Harassment from staff (by ethnicity),RN3,Acute&Acute Community Trusts,0.2030812324929972,0.2355212355212355,1.1597390493942217
+Harassment from staff (by ethnicity),RN5,Acute&Acute Community Trusts,0.2158558558558558,0.2389610389610389,1.1070398716475511
+Harassment from staff (by ethnicity),RN7,Acute&Acute Community Trusts,0.2415349887133182,0.2862453531598513,1.1851092658861138
+Harassment from staff (by ethnicity),RNA,Acute&Acute Community Trusts,0.2035152636447733,0.2722143864598025,1.3375625080138482
+Harassment from staff (by ethnicity),RNN,Acute&Acute Community Trusts,0.2242817423540315,0.3127853881278539,1.3946092305370015
+Harassment from staff (by ethnicity),RNQ,Acute&Acute Community Trusts,0.2546511627906976,0.2715736040609137,1.0664534223396613
+Harassment from staff (by ethnicity),RNS,Acute&Acute Community Trusts,0.2631810193321617,0.1976190476190476,0.750886397964862
+Harassment from staff (by ethnicity),RNZ,Acute&Acute Community Trusts,0.1959247648902821,0.183941605839416,0.9388379562043794
+Harassment from staff (by ethnicity),RP5,Acute&Acute Community Trusts,0.1768480492813141,0.2412645590682196,1.3642477824815442
+Harassment from staff (by ethnicity),RPA,Acute&Acute Community Trusts,0.2470355731225296,0.2884615384615384,1.1676923076923076
+Harassment from staff (by ethnicity),RQ3,Acute&Acute Community Trusts,0.1916342412451362,0.2478723404255319,1.293465817042877
+Harassment from staff (by ethnicity),RQM,Acute&Acute Community Trusts,0.2134185303514377,0.2580353100950656,1.2090576655652026
+Harassment from staff (by ethnicity),RQW,Acute&Acute Community Trusts,0.2424242424242424,0.2423025435073627,0.9994979919678711
+Harassment from staff (by ethnicity),RQX,Acute&Acute Community Trusts,0.1876355748373102,0.2966417910447761,1.580946423949616
+Harassment from staff (by ethnicity),RR7,Acute&Acute Community Trusts,0.1926386233269598,0.264367816091954,1.372351045321012
+Harassment from staff (by ethnicity),RR8,Acute&Acute Community Trusts,0.1845337800111669,0.2238924050632911,1.2132868304640074
+Harassment from staff (by ethnicity),RRF,Acute&Acute Community Trusts,0.1890049977283053,0.3159722222222222,1.6717664930555556
+Harassment from staff (by ethnicity),RRK,Acute&Acute Community Trusts,0.2408015201243738,0.2826812253563845,1.1739179437504377
+Harassment from staff (by ethnicity),RRV,Acute&Acute Community Trusts,0.2351301115241635,0.2745995423340961,1.1678620851837451
+Harassment from staff (by ethnicity),RTD,Acute&Acute Community Trusts,0.2094962362478286,0.2698209718670076,1.2879514052358267
+Harassment from staff (by ethnicity),RTE,Acute&Acute Community Trusts,0.2062747035573122,0.2669552669552669,1.2941735576466116
+Harassment from staff (by ethnicity),RTF,Acute&Acute Community Trusts,0.1422520296505471,0.1531007751937984,1.0762642583722852
+Harassment from staff (by ethnicity),RTG,Acute&Acute Community Trusts,0.2012269938650306,0.2565502183406113,1.2749294387048677
+Harassment from staff (by ethnicity),RTH,Acute&Acute Community Trusts,0.2146940503917002,0.2341166231505657,1.0904662831756624
+Harassment from staff (by ethnicity),RTK,Acute&Acute Community Trusts,0.1872021783526208,0.2427745664739884,1.2968575932737783
+Harassment from staff (by ethnicity),RTP,Acute&Acute Community Trusts,0.2057926829268292,0.227906976744186,1.1074590869939709
+Harassment from staff (by ethnicity),RTR,Acute&Acute Community Trusts,0.2432234432234432,0.2831541218637993,1.1641728203135122
+Harassment from staff (by ethnicity),RTX,Acute&Acute Community Trusts,0.2342657342657342,0.243498817966903,1.039412864754243
+Harassment from staff (by ethnicity),RVJ,Acute&Acute Community Trusts,0.1843206342215371,0.1808219178082191,0.981018313939215
+Harassment from staff (by ethnicity),RVR,Acute&Acute Community Trusts,0.2388625592417061,0.2163995067817509,0.9059582525982034
+Harassment from staff (by ethnicity),RVV,Acute&Acute Community Trusts,0.2883236994219653,0.2929971988795518,1.016209210227796
+Harassment from staff (by ethnicity),RVW,Acute&Acute Community Trusts,0.1696733300828864,0.2248062015503876,1.324935400516796
+Harassment from staff (by ethnicity),RWA,Acute&Acute Community Trusts,0.2220403709765412,0.3178082191780822,1.4313082696644341
+Harassment from staff (by ethnicity),RWD,Acute&Acute Community Trusts,0.2459705676243868,0.2433697347893915,0.9894262437164152
+Harassment from staff (by ethnicity),RWE,Acute&Acute Community Trusts,0.1981566820276497,0.182972241029113,0.9233715419376172
+Harassment from staff (by ethnicity),RWF,Acute&Acute Community Trusts,0.2116269343370974,0.1973913043478261,0.9327324282522773
+Harassment from staff (by ethnicity),RWG,Acute&Acute Community Trusts,0.2264615384615384,0.2201222901612006,0.9720073954129105
+Harassment from staff (by ethnicity),RWH,Acute&Acute Community Trusts,0.221025641025641,0.2622826908541194,1.186661826370146
+Harassment from staff (by ethnicity),RWJ,Acute&Acute Community Trusts,0.2030548068283917,0.2596899224806202,1.278915414694382
+Harassment from staff (by ethnicity),RWP,Acute&Acute Community Trusts,0.2252906976744186,0.2401215805471124,1.065829983331699
+Harassment from staff (by ethnicity),RWW,Acute&Acute Community Trusts,0.1781314168377823,0.2604422604422604,1.462079317987099
+Harassment from staff (by ethnicity),RWY,Acute&Acute Community Trusts,0.1865951742627346,0.2446236559139785,1.3109859720677295
+Harassment from staff (by ethnicity),RX1,Acute&Acute Community Trusts,0.2159683510160043,0.2447216890595009,1.1331368133720936
+Harassment from staff (by ethnicity),RXC,Acute&Acute Community Trusts,0.2402129658628249,0.272475795297372,1.1343092755990989
+Harassment from staff (by ethnicity),RXF,Acute&Acute Community Trusts,0.2166076601223044,0.2866756393001345,1.323478768656045
+Harassment from staff (by ethnicity),RXK,Acute&Acute Community Trusts,0.1722822631913541,0.2731439046746104,1.5854441404175728
+Harassment from staff (by ethnicity),RXL,Acute&Acute Community Trusts,0.1870967741935484,0.2719298245614035,1.4534180278281912
+Harassment from staff (by ethnicity),RXN,Acute&Acute Community Trusts,0.2109149277688603,0.2128712871287128,1.0092755850927557
+Harassment from staff (by ethnicity),RXP,Acute&Acute Community Trusts,0.2294961382861346,0.2686230248306998,1.170490391850437
+Harassment from staff (by ethnicity),RXQ,Acute&Acute Community Trusts,0.1885593220338983,0.2197392923649906,1.1653589437783771
+Harassment from staff (by ethnicity),RXR,Acute&Acute Community Trusts,0.1966616084977238,0.2226066897347174,1.1319275349936635
+Harassment from staff (by ethnicity),RXW,Acute&Acute Community Trusts,0.2245657568238213,0.2480314960629921,1.1044938443468049
+Harassment from staff (by ethnicity),RYJ,Acute&Acute Community Trusts,0.2314465408805031,0.2477326167282499,1.07036646901608
+Harassment from staff (by ethnicity),RYR,Acute&Acute Community Trusts,0.223121387283237,0.2307692307692307,1.0342766042247904
+Harassment from staff (by ethnicity),RAN,Acute Specialist Trusts,0.2391857506361323,0.2617924528301887,1.094515254917704
+Harassment from staff (by ethnicity),RBQ,Acute Specialist Trusts,0.1383095499451152,0.1658986175115207,1.1994733377221858
+Harassment from staff (by ethnicity),RBV,Acute Specialist Trusts,0.1895937277263008,0.184375,0.9724741541353384
+Harassment from staff (by ethnicity),REN,Acute Specialist Trusts,0.1090468497576736,0.1913043478260869,1.7543317230273758
+Harassment from staff (by ethnicity),REP,Acute Specialist Trusts,0.1997503121098626,0.2647058823529412,1.3251838235294122
+Harassment from staff (by ethnicity),RET,Acute Specialist Trusts,0.1966101694915254,0.2613636363636363,1.329349529780564
+Harassment from staff (by ethnicity),RGM,Acute Specialist Trusts,0.2508287292817679,0.303125,1.2084939427312777
+Harassment from staff (by ethnicity),RL1,Acute Specialist Trusts,0.2138284250960307,0.2456140350877192,1.1486500682844833
+Harassment from staff (by ethnicity),RP4,Acute Specialist Trusts,0.2047713717693837,0.2333065164923572,1.139351240734521
+Harassment from staff (by ethnicity),RP6,Acute Specialist Trusts,0.2528,0.2761061946902655,1.0921922258317462
+Harassment from staff (by ethnicity),RPC,Acute Specialist Trusts,0.2022471910112359,0.2519685039370078,1.2458442694663168
+Harassment from staff (by ethnicity),RPY,Acute Specialist Trusts,0.1822995461422087,0.2356164383561644,1.2924685954641055
+Harassment from staff (by ethnicity),RRJ,Acute Specialist Trusts,0.2204007285974499,0.2698412698412698,1.2243211334120425
+Harassment from staff (by ethnicity),R1D,Community Trusts,0.1236263736263736,0.1627906976744186,1.3167958656330752
+Harassment from staff (by ethnicity),RDR,Community Trusts,0.142433234421365,0.1484098939929328,1.041961130742049
+Harassment from staff (by ethnicity),RY2,Community Trusts,0.1474358974358974,0.2264150943396226,1.5356849876948317
+Harassment from staff (by ethnicity),RY3,Community Trusts,0.1327930174563591,0.1623931623931624,1.2229043778339554
+Harassment from staff (by ethnicity),RY4,Community Trusts,0.1071161048689138,0.1719298245614035,1.6050791313949215
+Harassment from staff (by ethnicity),RY5,Community Trusts,0.1831726555652936,0.2133333333333333,1.164657097288676
+Harassment from staff (by ethnicity),RY6,Community Trusts,0.1209964412811387,0.1399317406143344,1.156494679783176
+Harassment from staff (by ethnicity),RY7,Community Trusts,0.1471264367816092,0.1956521739130435,1.3298233695652175
+Harassment from staff (by ethnicity),RY8,Community Trusts,0.141675656238763,0.180672268907563,1.2752527406901848
+Harassment from staff (by ethnicity),RY9,Community Trusts,0.1538461538461538,0.1382113821138211,0.8983739837398375
+Harassment from staff (by ethnicity),RYV,Community Trusts,0.1104651162790697,0.1481481481481481,1.3411306042884996
+Harassment from staff (by ethnicity),RYW,Community Trusts,0.1725067385444744,0.2264150943396226,1.3124999999999996
+Harassment from staff (by ethnicity),RYX,Community Trusts,0.1710758377425044,0.1763527054108216,1.0308451955457305
+Harassment from staff (by ethnicity),RYY,Community Trusts,0.1303776683087028,0.1701680672268907,1.3051933619795522
+Harassment from staff (by ethnicity),RRU,Ambulance Trusts,0.1972333779562695,0.2320217096336499,1.1763815640022839
+Harassment from staff (by ethnicity),RX6,Ambulance Trusts,0.2510518934081346,0.3018867924528302,1.2024876146305472
+Harassment from staff (by ethnicity),RX7,Ambulance Trusts,0.2109639667385278,0.2153846153846154,1.0209545199326227
+Harassment from staff (by ethnicity),RX8,Ambulance Trusts,0.2067438692098092,0.2871287128712871,1.3888136754367368
+Harassment from staff (by ethnicity),RX9,Ambulance Trusts,0.2288967412642324,0.217391304347826,0.9497352524423892
+Harassment from staff (by ethnicity),RYA,Ambulance Trusts,0.2271876462330369,0.276056338028169,1.215102769034392
+Harassment from staff (by ethnicity),RYC,Ambulance Trusts,0.2888198757763975,0.2745098039215686,0.9504532995994096
+Harassment from staff (by ethnicity),RYD,Ambulance Trusts,0.2268879105993904,0.1868131868131868,0.823372150237822
+Harassment from staff (by ethnicity),RYE,Ambulance Trusts,0.24601593625498,0.2162162162162162,0.8788707736076159
+Harassment from staff (by ethnicity),RYF,Ambulance Trusts,0.2379725085910652,0.2183908045977011,0.9177144279845638

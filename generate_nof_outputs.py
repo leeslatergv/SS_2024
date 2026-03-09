@@ -356,104 +356,148 @@ def compute_all_results(df):
     full_corr.index.name = "Variable"
     results["Full Item Correlations"] = full_corr.reset_index()
 
-    # ── 7. Racism likelihood ratio (ecological proxy) ──────────────
+    # ── 7. Racism likelihood ratio (per-trust BME vs White) ────────
     try:
-        eth_sheet = pd.read_excel(
-            "NSS24 detailed spreadsheets organisational results.xlsx",
-            sheet_name='BACKGROUND INFORMATION Q27-30', header=None
-        )
-        # Find header row
-        h_row = None
-        for i in range(10):
-            if str(eth_sheet.iloc[i, 0]).strip() == 'ODS code':
-                h_row = i
-                break
-        if h_row is not None:
-            eth_data = eth_sheet.iloc[h_row + 1:].reset_index(drop=True)
-            org_ids_eth = eth_data.iloc[:, 0].astype(str)
-            mask = org_ids_eth.str.match(r'^[A-Z0-9]{2,5}$', na=False)
-            eth_data = eth_data[mask].reset_index(drop=True)
+        BENCHMARK_FILE = "Benchmark-report-Excel-data-for-2020-2024 (3).xlsx"
+        BENCHMARK_SHEETS = [
+            "Acute&Acute Community Trusts",
+            "Acute Specialist Trusts",
+            "MH&LD, MH, LD & Community Trust",
+            "Community Trusts",
+            "Ambulance Trusts",
+        ]
 
-            # White = cols 23-26, BME = cols 27-40
-            white_cols = [23, 24, 25, 26]
-            bme_cols = list(range(27, 41))
+        # Column pairs: (White suffix _1_, BME suffix _2_) for 2024
+        LR_INDICATORS = {
+            "Q15: Fair career progression": {
+                "white": "equal_eth_summary_1_2024",
+                "bme": "equal_eth_summary_2_2024",
+                "white_n": "equal_eth_summary_n_1_2024",
+                "bme_n": "equal_eth_summary_n_2_2024",
+                "direction": "positive",  # higher = better, so LR < 1 means BME disadvantage
+            },
+            "Q16b: Discrimination from manager/colleagues": {
+                "white": "q16b_eth_summary_1_2024",
+                "bme": "q16b_eth_summary_2_2024",
+                "white_n": "q16b_eth_summary_n_1_2024",
+                "bme_n": "q16b_eth_summary_n_2_2024",
+                "direction": "negative",  # higher = worse, so LR > 1 means BME disadvantage
+            },
+            "Harassment from patients (by ethnicity)": {
+                "white": "har_from_pat_eth_summary_1_2024",
+                "bme": "har_from_pat_eth_summary_2_2024",
+                "white_n": "har_from_pat_eth_summary_n_1_2024",
+                "bme_n": "har_from_pat_eth_summary_n_2_2024",
+                "direction": "negative",
+            },
+            "Harassment from staff (by ethnicity)": {
+                "white": "har_from_staff_eth_summary_1_2024",
+                "bme": "har_from_staff_eth_summary_2_2024",
+                "white_n": "har_from_staff_eth_summary_n_1_2024",
+                "bme_n": "har_from_staff_eth_summary_n_2_2024",
+                "direction": "negative",
+            },
+        }
 
-            eth_df = pd.DataFrame()
-            eth_df['org_id'] = eth_data.iloc[:, 0].astype(str)
-            eth_df['pct_white'] = sum(
-                pd.to_numeric(eth_data.iloc[:, c], errors='coerce').fillna(0) for c in white_cols
-            )
-            eth_df['pct_bme'] = sum(
-                pd.to_numeric(eth_data.iloc[:, c], errors='coerce').fillna(0) for c in bme_cols
-            )
+        # Read and concatenate all trust-type sheets
+        all_benchmark = []
+        for sheet in BENCHMARK_SHEETS:
+            try:
+                bm = pd.read_excel(BENCHMARK_FILE, sheet_name=sheet)
+                bm['trust_type'] = sheet
+                all_benchmark.append(bm)
+            except Exception:
+                pass
 
-            # Merge with main data
-            merged_eth = df.reset_index().merge(eth_df, on='org_id', how='inner')
+        if all_benchmark:
+            benchmark = pd.concat(all_benchmark, ignore_index=True)
 
-            racism_vars = {
-                'fair_career_progression': 'Q15: Fair career progression (% Yes)',
-                'discrim_patients': 'Q16a: Discrimination from patients (% Yes)',
-                'discrim_colleagues': 'Q16b: Discrimination from colleagues (% Yes)',
-                'org_respects_differences': 'Q21: Org respects differences',
-            }
+            # Identify org code column (first column)
+            org_col = benchmark.columns[0]
 
-            lr_rows = []
-            for var, q_label in racism_vars.items():
-                if var in merged_eth.columns:
-                    valid = merged_eth[['pct_bme', var]].dropna()
-                    r, p = stats.pearsonr(valid['pct_bme'], valid[var])
-                    lr_rows.append({
-                        'Variable': var,
-                        'Question': q_label,
-                        'N Orgs': len(valid),
-                        'Correlation with % BME staff': r,
-                        'p-value': p,
-                        'Interpretation': (
-                            'Higher BME % -> higher discrimination' if r > 0.1 and p < 0.05
-                            else 'Higher BME % -> lower discrimination' if r < -0.1 and p < 0.05
-                            else 'No significant relationship'
-                        ),
+            # Per-trust LR computation
+            trust_lr_rows = []
+            lr_summary_rows = []
+
+            for indicator_name, cols in LR_INDICATORS.items():
+                white_col = cols["white"]
+                bme_col = cols["bme"]
+                direction = cols["direction"]
+
+                if white_col not in benchmark.columns or bme_col not in benchmark.columns:
+                    continue
+
+                white_vals = pd.to_numeric(benchmark[white_col], errors='coerce')
+                bme_vals = pd.to_numeric(benchmark[bme_col], errors='coerce')
+
+                # Get sample sizes if available
+                white_n_col = cols.get("white_n", "")
+                bme_n_col = cols.get("bme_n", "")
+                has_n = white_n_col in benchmark.columns and bme_n_col in benchmark.columns
+
+                valid = white_vals.notna() & bme_vals.notna() & (white_vals > 0)
+                for idx in benchmark.index[valid]:
+                    w = white_vals[idx]
+                    b = bme_vals[idx]
+                    lr = b / w if w > 0 else np.nan
+
+                    row = {
+                        'Indicator': indicator_name,
+                        'Trust': benchmark.loc[idx, org_col],
+                        'Trust Type': benchmark.loc[idx, 'trust_type'],
+                        'White Rate': w,
+                        'BME Rate': b,
+                        'Likelihood Ratio (BME/White)': lr,
+                    }
+                    if has_n:
+                        row['White N'] = pd.to_numeric(
+                            benchmark.loc[idx, white_n_col], errors='coerce')
+                        row['BME N'] = pd.to_numeric(
+                            benchmark.loc[idx, bme_n_col], errors='coerce')
+                    trust_lr_rows.append(row)
+
+                # Summary statistics across trusts
+                lr_vals = bme_vals[valid] / white_vals[valid]
+                lr_vals = lr_vals.replace([np.inf, -np.inf], np.nan).dropna()
+
+                if len(lr_vals) > 0:
+                    if direction == "negative":
+                        interp = (
+                            f"BME staff {lr_vals.median():.1f}x more likely"
+                            if lr_vals.median() > 1
+                            else f"BME staff {1/lr_vals.median():.1f}x less likely"
+                        )
+                    else:
+                        interp = (
+                            f"BME staff {1/lr_vals.median():.1f}x less likely to report positively"
+                            if lr_vals.median() < 1
+                            else f"BME staff report more positively"
+                        )
+
+                    lr_summary_rows.append({
+                        'Indicator': indicator_name,
+                        'N Trusts': len(lr_vals),
+                        'Median LR': lr_vals.median(),
+                        'Mean LR': lr_vals.mean(),
+                        'SD LR': lr_vals.std(),
+                        'Min LR': lr_vals.min(),
+                        'Q25 LR': lr_vals.quantile(0.25),
+                        'Q75 LR': lr_vals.quantile(0.75),
+                        'Max LR': lr_vals.max(),
+                        'Direction': direction,
+                        'Interpretation': interp,
                     })
 
-            # Also compute org-level "disparity proxy":
-            # Orgs with higher BME % AND higher discrimination = worse disparity
-            if 'discrim_colleagues' in merged_eth.columns:
-                merged_eth['disparity_proxy'] = (
-                    merged_eth['discrim_colleagues'] * merged_eth['pct_bme'] / 100
-                )
+            if lr_summary_rows:
+                results["Racism LR Summary"] = pd.DataFrame(lr_summary_rows)
 
-            lr_rows.append({
-                'Variable': '', 'Question': '', 'N Orgs': '',
-                'Correlation with % BME staff': '',
-                'p-value': '',
-                'Interpretation': '',
-            })
-            lr_rows.append({
-                'Variable': 'NOTE',
-                'Question': (
-                    'These are ECOLOGICAL correlations (org-level % BME vs org-level discrimination rate). '
-                    'The true likelihood ratio P(discrim|BME)/P(discrim|White) requires individual-level '
-                    'data or WRES indicator breakdowns, which are not in this dataset. '
-                    'A positive correlation means orgs with more BME staff also have higher discrimination '
-                    'rates, which is consistent with but NOT the same as a BME/White likelihood ratio.'
-                ),
-                'N Orgs': '', 'Correlation with % BME staff': '', 'p-value': '',
-                'Interpretation': '',
-            })
-
-            results["Racism Ecological LR"] = pd.DataFrame(lr_rows)
-
-            # Also add the ethnicity composition summary
-            eth_summary = merged_eth[['org_id', 'pct_white', 'pct_bme']].copy()
-            eth_summary['pct_bme_rank'] = eth_summary['pct_bme'].rank(ascending=False)
-            # Add the racism scores
-            for var in racism_vars:
-                if var in merged_eth.columns:
-                    eth_summary[var] = merged_eth[var]
-            results["Org Ethnicity & Racism Scores"] = eth_summary
+            if trust_lr_rows:
+                results["Racism LR Per Trust"] = pd.DataFrame(trust_lr_rows)
 
     except Exception as e:
-        print(f"  WARNING: Could not compute racism LR proxy: {e}")
+        print(f"  WARNING: Could not compute racism likelihood ratios: {e}")
+        import traceback
+        traceback.print_exc()
 
     # ── 8. KMO per item ─────────────────────────────────────────────
     try:
@@ -507,8 +551,8 @@ def write_excel(results):
         "EFA 8-Factor Loadings",
         "EFA 8-Factor Correlations",
         "Inter-Standard Correlations",
-        "Racism Ecological LR",
-        "Org Ethnicity & Racism Scores",
+        "Racism LR Summary",
+        "Racism LR Per Trust",
         "Descriptive Stats",
         "KMO Sampling Adequacy",
         "Full Item Correlations",
@@ -769,42 +813,27 @@ def write_word(results):
 
     # ── Section 5: Racism Likelihood Ratio ──────────────────────────
     doc.add_page_break()
-    doc.add_heading('5. Tackling Racism: Likelihood Ratio Approach', level=1)
+    doc.add_heading('5. Tackling Racism: Likelihood Ratio (BME vs White)', level=1)
     doc.add_paragraph(
         "The policy specifies that Tackling Racism items should use a BME vs White "
-        "comparator — specifically a likelihood ratio of P(outcome | BME) / P(outcome | White). "
-        "This requires individual-level response data broken down by ethnicity, which is not "
-        "available in the NSS organisational results spreadsheet."
+        "comparator — specifically a likelihood ratio: P(outcome | BME) / P(outcome | White). "
+        "Using the NHS Staff Survey benchmark data, we computed per-trust likelihood ratios "
+        "for each racism-related indicator where ethnicity breakdowns are available."
     )
     doc.add_paragraph(
-        "As a proxy, we computed ecological correlations: does the org-level % BME staff "
-        "correlate with the org-level discrimination rate? A positive correlation is consistent "
-        "with (but not identical to) a BME/White disparity."
+        "A likelihood ratio (LR) > 1 for negative outcomes (discrimination, harassment) means "
+        "BME staff are more likely to experience those outcomes. For positive outcomes (fair "
+        "career progression), an LR < 1 means BME staff are less likely to report positively."
     )
 
-    if "Racism Ecological LR" in results:
-        add_table_to_doc(doc, results["Racism Ecological LR"],
-                         "Ecological Correlations: % BME Staff vs Discrimination Rates")
+    if "Racism LR Summary" in results:
+        add_table_to_doc(doc, results["Racism LR Summary"],
+                         "Likelihood Ratio Summary Across Trusts")
 
     doc.add_paragraph('')
-    doc.add_heading('What is needed for the true likelihood ratio', level=3)
     doc.add_paragraph(
-        "To compute the actual likelihood ratio for the NOF score, you would need either:"
-    )
-    doc.add_paragraph(
-        "1. WRES (Workforce Race Equality Standard) indicators, which provide Q15 and Q16 "
-        "results separately for BME and White staff at each trust; or",
-        style='List Bullet'
-    )
-    doc.add_paragraph(
-        "2. Individual-level NSS response data with ethnicity, to compute "
-        "P(discrim | BME) / P(discrim | White) per organisation; or",
-        style='List Bullet'
-    )
-    doc.add_paragraph(
-        "3. The NSS demographic breakdowns (if NHS England publishes Q15/Q16 by ethnicity "
-        "at org level).",
-        style='List Bullet'
+        "The per-trust detail is provided in the Excel workbook ('Racism LR Per Trust' tab). "
+        "Trusts with very small BME sample sizes may have unstable likelihood ratios."
     )
     doc.add_paragraph(
         "The factor analysis supports Q15, Q16a, Q16b, and Q21 belonging together as a "
