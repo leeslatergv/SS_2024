@@ -22,6 +22,27 @@ warnings.filterwarnings("ignore")
 # Re-use extraction from nof_2024_only
 from nof_2024_only import extract_all_nof_items, cronbach_alpha, item_total_correlations, alpha_if_dropped
 
+
+def standardized_alpha(items_df):
+    """Standardized Cronbach's alpha (from mean inter-item correlation).
+    Use when items have wildly different variances (e.g. violence frequencies)."""
+    k = items_df.shape[1]
+    if k < 2:
+        return np.nan
+    corr = items_df.corr()
+    mask = np.triu(np.ones(corr.shape), k=1).astype(bool)
+    mean_r = corr.where(mask).stack().mean()
+    return (k * mean_r) / (1 + (k - 1) * mean_r)
+
+
+def variance_ratio(items_df):
+    """Max/min item variance ratio — flags when raw alpha is unreliable."""
+    vrs = items_df.var(ddof=1)
+    vrs = vrs[vrs > 0]
+    if len(vrs) < 2:
+        return 1.0
+    return vrs.max() / vrs.min()
+
 # ══════════════════════════════════════════════════════════════════════
 # PROPOSED STRUCTURE (from policy specification)
 # ══════════════════════════════════════════════════════════════════════
@@ -305,14 +326,23 @@ def run_reliability_hierarchical(df):
                 if info and info["reverse"]:
                     dat_a[v] = 1 - dat_a[v]
 
-            alpha = cronbach_alpha(dat_a)
+            raw_alpha = cronbach_alpha(dat_a)
+            std_alpha = standardized_alpha(dat_a)
+            var_rat = variance_ratio(dat_a)
             itc = item_total_correlations(dat_a)
             aid = alpha_if_dropped(dat_a)
             mean_iic = dat_a.corr().where(
                 np.triu(np.ones(dat_a.corr().shape), k=1).astype(bool)
             ).stack().mean()
 
-            print(f"    Standard level ({len(available)} items, N={len(dat)}): α = {alpha:.3f}, mean IIC = {mean_iic:.3f}")
+            # Use standardized alpha when variance ratio is extreme (>10x)
+            use_std = var_rat > 10
+            alpha = std_alpha if use_std else raw_alpha
+
+            print(f"    Standard level ({len(available)} items, N={len(dat)}):")
+            print(f"      Raw α = {raw_alpha:.3f}, Standardized α = {std_alpha:.3f}, mean IIC = {mean_iic:.3f}")
+            if use_std:
+                print(f"      ⚠ Variance ratio = {var_rat:.0f}:1 — raw α unreliable, using standardized α = {std_alpha:.3f}")
             for v in available:
                 print(f"      {v:40s}  item-total r = {itc[v]:.3f}  α-if-drop = {aid[v]:.3f}")
 
@@ -320,6 +350,10 @@ def run_reliability_hierarchical(df):
                 "n_items": len(available),
                 "n_orgs": len(dat),
                 "alpha": alpha,
+                "raw_alpha": raw_alpha,
+                "std_alpha": std_alpha,
+                "variance_ratio": var_rat,
+                "use_standardized": use_std,
                 "mean_iic": mean_iic,
                 "items": {v: {"itc": itc[v], "aid": aid[v]} for v in available},
             }
@@ -603,15 +637,35 @@ def generate_word_doc(efa_results, reliability_results, elm_results):
 
         # Standard-level reliability
         alpha = std_level.get("alpha")
+        use_std = std_level.get("use_standardized", False)
+        var_rat = std_level.get("variance_ratio", 1)
+        raw_alpha = std_level.get("raw_alpha")
+        std_alpha_val = std_level.get("std_alpha")
+
         if alpha is not None:
             rating, colour = rag_rating(alpha, "alpha")
             word = rag_word(alpha, "alpha")
             p = doc.add_paragraph()
-            r = p.add_run(f"Overall reliability: α = {alpha:.2f} — {word} ")
+            if use_std:
+                r = p.add_run(f"Overall reliability: standardized α = {alpha:.2f} — {word} ")
+            else:
+                r = p.add_run(f"Overall reliability: α = {alpha:.2f} — {word} ")
             r.bold = True
             r2 = p.add_run(f"[{rating}]")
             r2.bold = True
             r2.font.color.rgb = RAG_COLOURS[colour]
+
+            if use_std:
+                p2 = doc.add_paragraph()
+                r = p2.add_run("Technical note: ")
+                r.bold = True
+                r.font.color.rgb = RAG_COLOURS["amber"]
+                p2.add_run(
+                    f"Item variances differ by {var_rat:.0f}:1 (e.g. patient violence is far more "
+                    f"common than manager violence). Raw α = {raw_alpha:.2f} is misleading here — "
+                    f"the standardized α = {std_alpha_val:.2f} (based on correlations, not covariances) "
+                    f"is the correct measure. The questions genuinely belong together."
+                )
         elif std_level.get("n_items", 0) < 2:
             p = doc.add_paragraph()
             r = p.add_run("Overall reliability: Cannot assess ")
@@ -695,7 +749,7 @@ def generate_word_doc(efa_results, reliability_results, elm_results):
 
                 # Combined assessment
                 if itc_val is not None and loading_val is not None:
-                    assessment = f"{itc_word} fit; loads {ld_word.lower()}"
+                    assessment = f"{itc_word}; loads {ld_word.lower()}"
                 elif loading_val is not None:
                     assessment = f"Loads {ld_word.lower()}"
                 elif itc_val is not None:
