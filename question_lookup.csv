@@ -1,0 +1,104 @@
+code,section,question_text,response_scale,notes
+q1,Your Job,Do you have face-to-face video or telephone contact with patients / service users as part of your job?,Yes frequently / Yes occasionally / No,Filter question
+q2a,Your Job,I look forward to going to work,Never / Rarely / Sometimes / Often / Always,
+q2b,Your Job,I am enthusiastic about my job,Never / Rarely / Sometimes / Often / Always,
+q2c,Your Job,Time passes quickly when I am working,Never / Rarely / Sometimes / Often / Always,
+q3a,Your Job,I always know what my work responsibilities are,Strongly disagree to Strongly agree (5pt),
+q3b,Your Job,I am trusted to do my job,Strongly disagree to Strongly agree (5pt),
+q3c,Your Job,There are frequent opportunities for me to show initiative in my role,Strongly disagree to Strongly agree (5pt),
+q3d,Your Job,I am able to make suggestions to improve the work of my team / department,Strongly disagree to Strongly agree (5pt),
+q3e,Your Job,I am involved in deciding on changes introduced that affect my work area / team / department,Strongly disagree to Strongly agree (5pt),
+q3f,Your Job,I am able to make improvements happen in my area of work,Strongly disagree to Strongly agree (5pt),
+q3g,Your Job,I am able to meet all the conflicting demands on my time at work,Strongly disagree to Strongly agree (5pt),
+q3h,Your Job,I have adequate materials supplies and equipment to do my work,Strongly disagree to Strongly agree (5pt),
+q3i,Your Job,There are enough staff at this organisation for me to do my job properly,Strongly disagree to Strongly agree (5pt),
+q4a,Your Job,Satisfaction: The recognition I get for good work,Very dissatisfied to Very satisfied (5pt),
+q4b,Your Job,Satisfaction: The extent to which my organisation values my work,Very dissatisfied to Very satisfied (5pt),
+q4c,Your Job,Satisfaction: My level of pay,Very dissatisfied to Very satisfied (5pt),
+q4d,Your Job,Satisfaction: The opportunities for flexible working patterns,Very dissatisfied to Very satisfied (5pt),STANDARD: Flexible Working
+q5a,Your Job,I have unrealistic time pressures,Never / Rarely / Sometimes / Often / Always,Higher = worse
+q5b,Your Job,I have a choice in deciding how to do my work,Never / Rarely / Sometimes / Often / Always,
+q5c,Your Job,Relationships at work are strained,Never / Rarely / Sometimes / Often / Always,Higher = worse
+q6a,Your Job,I feel that my role makes a difference to patients / service users,Strongly disagree to Strongly agree (5pt),Has N/A option
+q6b,Your Job,My organisation is committed to helping me balance my work and home life,Strongly disagree to Strongly agree (5pt),
+q6c,Your Job,I achieve a good balance between my work life and my home life,Strongly disagree to Strongly agree (5pt),
+q6d,Your Job,I can approach my immediate manager to talk openly about flexible working,Strongly disagree to Strongly agree (5pt),STANDARD: Flexible Working
+q7a,Your Team,The team I work in has a set of shared objectives,Strongly disagree to Strongly agree (5pt),
+q7b,Your Team,The team I work in often meets to discuss the team's effectiveness,Strongly disagree to Strongly agree (5pt),
+q7c,Your Team,I receive the respect I deserve from my colleagues at work,Strongly disagree to Strongly agree (5pt),
+q7d,Your Team,Team members understand each other's roles,Strongly disagree to Strongly agree (5pt),
+q7e,Your Team,I enjoy working with the colleagues in my team,Strongly disagree to Strongly agree (5pt),
+q7f,Your Team,My team has enough freedom in how to do its work,Strongly disagree to Strongly agree (5pt),
+q7g,Your Team,In my team disagreements are dealt with constructively,Strongly disagree to Strongly agree (5pt),
+q7h,Your Team,I feel valued by my team,Strongly disagree to Strongly agree (5pt),
+q7i,Your Team,I feel a strong personal attachment to my team,Strongly disagree to Strongly agree (5pt),
+q8a,People in Your Organisation,Teams within this organisation work well together to achieve their objectives,Strongly disagree to Strongly agree (5pt),
+q8b,People in Your Organisation,The people I work with are understanding and kind to one another,Strongly disagree to Strongly agree (5pt),
+q8c,People in Your Organisation,The people I work with are polite and treat each other with respect,Strongly disagree to Strongly agree (5pt),
+q8d,People in Your Organisation,The people I work with show appreciation to one another,Strongly disagree to Strongly agree (5pt),
+q9a,Your Managers,My immediate manager encourages me at work,Strongly disagree to Strongly agree (5pt),
+q9b,Your Managers,My immediate manager gives me clear feedback on my work,Strongly disagree to Strongly agree (5pt),
+q9c,Your Managers,My immediate manager asks for my opinion before making decisions that affect my work,Strongly disagree to Strongly agree (5pt),
+q9d,Your Managers,My immediate manager takes a positive interest in my health and well-being,Strongly disagree to Strongly agree (5pt),STANDARD: Effective Line Management
+q9e,Your Managers,My immediate manager values my work,Strongly disagree to Strongly agree (5pt),
+q9f,Your Managers,My immediate manager works together with me to come to an understanding of problems,Strongly disagree to Strongly agree (5pt),STANDARD: Effective Line Management
+q9g,Your Managers,My immediate manager is interested in listening to me when I describe challenges I face,Strongly disagree to Strongly agree (5pt),
+q9h,Your Managers,My immediate manager cares about my concerns,Strongly disagree to Strongly agree (5pt),
+q9i,Your Managers,My immediate manager takes effective action to help me with any problems I face,Strongly disagree to Strongly agree (5pt),STANDARD: Effective Line Management
+q10a,Health Wellbeing Safety,How many hours a week are you contracted to work?,Up to 29 / 30+,
+q10b,Health Wellbeing Safety,Additional PAID hours per week over contracted,0 / Up to 5 / 6-10 / 11+,
+q10c,Health Wellbeing Safety,Additional UNPAID hours per week over contracted,0 / Up to 5 / 6-10 / 11+,
+q11a,Health Wellbeing Safety,My organisation takes positive action on health and well-being,Strongly disagree to Strongly agree (5pt),STANDARD: Supportive Environment (Wellbeing)
+q11b,Health Wellbeing Safety,In the last 12 months have you experienced musculoskeletal problems as a result of work activities?,Yes / No,
+q11c,Health Wellbeing Safety,During the last 12 months have you felt unwell as a result of work related stress?,Yes / No,
+q11d,Health Wellbeing Safety,In the last three months have you ever come to work despite not feeling well enough to perform your duties?,Yes / No,Presenteeism
+q11e,Health Wellbeing Safety,Have you felt pressure from your manager to come to work?,Yes / No,Conditional on q11d=Yes
+q12a,Health Wellbeing Safety,How often do you find your work emotionally exhausting?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12b,Health Wellbeing Safety,How often do you feel burnt out because of your work?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12c,Health Wellbeing Safety,How often does your work frustrate you?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12d,Health Wellbeing Safety,How often are you exhausted at the thought of another day/shift at work?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12e,Health Wellbeing Safety,How often do you feel worn out at the end of your working day/shift?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12f,Health Wellbeing Safety,How often do you feel that every working hour is tiring for you?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q12g,Health Wellbeing Safety,How often do you not have enough energy for family and friends during leisure time?,Never / Rarely / Sometimes / Often / Always,Burnout item
+q13a,Health Wellbeing Safety,Physical violence in last 12 months from patients / service users / relatives / public,Never / 1-2 / 3-5 / 6-10 / More than 10,STANDARD: Reducing Violence
+q13b,Health Wellbeing Safety,Physical violence in last 12 months from managers,Never / 1-2 / 3-5 / 6-10 / More than 10,STANDARD: Reducing Violence
+q13c,Health Wellbeing Safety,Physical violence in last 12 months from other colleagues,Never / 1-2 / 3-5 / 6-10 / More than 10,STANDARD: Reducing Violence
+q13d,Health Wellbeing Safety,Last time you experienced physical violence at work did you or a colleague report it?,Yes I reported / Yes colleague reported / No / Don't know / N/A,STANDARD: Reducing Violence (reporting)
+q14a,Health Wellbeing Safety,Harassment bullying or abuse in last 12 months from patients / service users / relatives / public,Never / 1-2 / 3-5 / 6-10 / More than 10,
+q14b,Health Wellbeing Safety,Harassment bullying or abuse in last 12 months from managers,Never / 1-2 / 3-5 / 6-10 / More than 10,
+q14c,Health Wellbeing Safety,Harassment bullying or abuse in last 12 months from other colleagues,Never / 1-2 / 3-5 / 6-10 / More than 10,
+q14d,Health Wellbeing Safety,Last time you experienced harassment bullying or abuse at work did you or a colleague report it?,Yes I reported / Yes colleague reported / No / Don't know / N/A,
+q15,Health Wellbeing Safety,Does your organisation act fairly with regard to career progression / promotion regardless of protected characteristics?,Yes / No / Don't know,STANDARD: Tackling Racism (BME staff only)
+q16a,Health Wellbeing Safety,In last 12 months personally experienced discrimination from patients / service users / relatives / public,Yes / No,STANDARD: Tackling Racism
+q16b,Health Wellbeing Safety,In last 12 months personally experienced discrimination from manager / team leader or other colleagues,Yes / No,STANDARD: Tackling Racism
+q16c,Health Wellbeing Safety,On what grounds have you experienced discrimination? (tick all that apply),Age / Disability / Gender reassignment / Marriage / Pregnancy / Race / Religion / Sex / Sexual orientation / Other,STANDARD: Tackling Racism (conditional on q16a or q16b = Yes)
+q17a,Health Wellbeing Safety,Unwanted behaviour of a sexual nature in workplace from patients / service users / relatives / public,Never / 1-2 / 3-5 / 6-10 / More than 10,STANDARD: Sexual Safety
+q17b,Health Wellbeing Safety,Unwanted behaviour of a sexual nature in workplace from staff / colleagues,Never / 1-2 / 3-5 / 6-10 / More than 10,STANDARD: Sexual Safety
+q18,Health Wellbeing Safety,In last month seen any errors near misses or incidents that could have hurt staff and/or patients?,Yes / No,
+q19a,Health Wellbeing Safety,My organisation treats staff who are involved in an error near miss or incident fairly,Strongly disagree to Strongly agree (5pt),Has Don't know
+q19b,Health Wellbeing Safety,My organisation encourages us to report errors near misses or incidents,Strongly disagree to Strongly agree (5pt),Has Don't know
+q19c,Health Wellbeing Safety,When errors near misses or incidents are reported my organisation takes action to ensure they do not happen again,Strongly disagree to Strongly agree (5pt),Has Don't know
+q19d,Health Wellbeing Safety,We are given feedback about changes made in response to reported errors near misses and incidents,Strongly disagree to Strongly agree (5pt),Has Don't know
+q20a,Raising Concerns,I would feel secure raising concerns about unsafe clinical practice,Strongly disagree to Strongly agree (5pt),
+q20b,Raising Concerns,I am confident that my organisation would address my concern,Strongly disagree to Strongly agree (5pt),
+q21,Your Organisation,I think that my organisation respects individual differences,Strongly disagree to Strongly agree (5pt),
+q22,Health Wellbeing Safety,I can eat nutritious and affordable food while I am working,Never / Rarely / Sometimes / Often / Always,STANDARD: Supportive Environment (Facilities)
+q23a,Personal Development,In last 12 months have you had an appraisal / annual review / development review / KSF review?,Yes / No / Can't remember,STANDARD: Effective Line Management (Appraisal)
+q23b,Personal Development,Appraisal helped me improve how I do my job,Yes definitely / Yes to some extent / No,STANDARD: Effective Line Management (Appraisal). Conditional on q23a=Yes
+q23c,Personal Development,Appraisal helped me agree clear objectives for my work,Yes definitely / Yes to some extent / No,Conditional on q23a=Yes
+q23d,Personal Development,Appraisal left me feeling that my work is valued by my organisation,Yes definitely / Yes to some extent / No,Conditional on q23a=Yes
+q24a,Personal Development,This organisation offers me challenging work,Strongly disagree to Strongly agree (5pt),Has N/A
+q24b,Personal Development,There are opportunities for me to develop my career in this organisation,Strongly disagree to Strongly agree (5pt),
+q24c,Personal Development,I have opportunities to improve my knowledge and skills,Strongly disagree to Strongly agree (5pt),
+q24d,Personal Development,I feel supported to develop my potential,Strongly disagree to Strongly agree (5pt),
+q24e,Personal Development,I am able to access the right learning and development opportunities when I need to,Strongly disagree to Strongly agree (5pt),STANDARD: Effective Line Management (Development)
+q24f,Personal Development,I am able to access clinical supervision opportunities when I need to,Strongly disagree to Strongly agree (5pt),Has N/A
+q25a,Your Organisation,Care of patients / service users is my organisation's top priority,Strongly disagree to Strongly agree (5pt),
+q25b,Your Organisation,My organisation acts on concerns raised by patients / service users,Strongly disagree to Strongly agree (5pt),
+q25c,Your Organisation,I would recommend my organisation as a place to work,Strongly disagree to Strongly agree (5pt),
+q25d,Your Organisation,If a friend or relative needed treatment I would be happy with the standard of care provided by this organisation,Strongly disagree to Strongly agree (5pt),
+q25e,Your Organisation,I feel safe to speak up about anything that concerns me in this organisation,Strongly disagree to Strongly agree (5pt),
+q25f,Your Organisation,If I spoke up about something that concerned me I am confident my organisation would address my concern,Strongly disagree to Strongly agree (5pt),
+q26a,Your Organisation,I often think about leaving this organisation,Strongly disagree to Strongly agree (5pt),Higher = worse
+q26b,Your Organisation,I will probably look for a job at a new organisation in the next 12 months,Strongly disagree to Strongly agree (5pt),Higher = worse
+q26c,Your Organisation,As soon as I can find another job I will leave this organisation,Strongly disagree to Strongly agree (5pt),Higher = worse
