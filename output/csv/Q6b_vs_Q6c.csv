@@ -1,0 +1,7 @@
+Configuration,Variable,Item-Total r,Cronbach Alpha,Mean Inter-Item r,N
+With Q6c (good_wl_balance),satisfaction_flexible_working,0.9403040983516563,0.940936646941773,0.8933506573593207,263
+With Q6c (good_wl_balance),good_wl_balance,0.8748885517092264,0.940936646941773,0.8933506573593207,263
+With Q6c (good_wl_balance),manager_flexible_working,0.9505351301829689,0.940936646941773,0.8933506573593207,263
+With Q6b (org_committed_wlb),satisfaction_flexible_working,0.9449163380385,0.9595248211817206,0.9149793117577149,263
+With Q6b (org_committed_wlb),org_committed_wlb,0.9080535315788307,0.9595248211817206,0.9149793117577149,263
+With Q6b (org_committed_wlb),manager_flexible_working,0.9517664824935457,0.9595248211817206,0.9149793117577149,263

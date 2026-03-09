@@ -1,0 +1,26 @@
+Standard,Variable,Question,Reversed,Item-Total r,Alpha if Dropped,Standard Alpha,Fits Well
+Reducing Violence,violence_patients,Q13a: Physical violence from patients/public,Yes,0.8421834431266547,0.5646527788125704,0.7408421044200308,Yes
+Reducing Violence,violence_managers,Q13b: Physical violence from managers,Yes,0.6383026717038756,0.7573288166545522,0.7408421044200308,Yes
+Reducing Violence,violence_colleagues,Q13c: Physical violence from colleagues,Yes,0.7368641880154247,0.7426621096283254,0.7408421044200308,Yes
+Reducing Violence,harassment_patients,Q14a: Harassment from patients/public,Yes,0.8532795585406686,0.631670812618847,0.7408421044200308,Yes
+Reducing Violence,harassment_managers,Q14b: Harassment from managers,Yes,0.35758735130803837,0.7390533834540197,0.7408421044200308,Yes
+Reducing Violence,harassment_colleagues,Q14c: Harassment from colleagues,Yes,0.675615009004055,0.6717186416802622,0.7408421044200308,Yes
+Tackling Racism,fair_career_progression,Q15: Org acts fairly re career progression,No,0.6789013887339276,0.7285370039807695,0.7816356505557203,Yes
+Tackling Racism,discrim_patients,Q16a: Discrimination from patients/public,Yes,0.38516096311577314,0.824772534321701,0.7816356505557203,Yes
+Tackling Racism,discrim_colleagues,Q16b: Discrimination from manager/colleagues,Yes,0.8295432995730287,0.6891580717158041,0.7816356505557203,Yes
+Tackling Racism,org_respects_differences,Q21: Org respects individual differences,No,0.7547810373942936,0.6652199463952895,0.7816356505557203,Yes
+Sexual Safety,sexual_behaviour_patients,Q17a: Unwanted sexual behaviour from patients,Yes,0.7716787518797208,,0.6508279177206477,Yes
+Sexual Safety,sexual_behaviour_staff,Q17b: Unwanted sexual behaviour from staff,Yes,0.7716787518797208,,0.6508279177206477,Yes
+Flexible Working,satisfaction_flexible_working,Q4d: Satisfaction with flexible working,No,0.9449163380385,0.9397982414431567,0.9595248211817206,Yes
+Flexible Working,org_committed_wlb,Q6b: Org committed to helping balance work/home,No,0.9080535315788307,0.9450159878679949,0.9595248211817206,Yes
+Flexible Working,manager_flexible_working,Q6d: Can approach manager about flexible working,No,0.9517664824935457,0.9369518963111234,0.9595248211817206,Yes
+Line Management,mgr_interest_wellbeing,Q9d: Manager takes interest in wellbeing,No,0.9806702126602402,0.9924619575022113,0.9910683921649291,Yes
+Line Management,mgr_understanding_problems,Q9f: Manager works to understand problems,No,0.9906504050988096,0.9802405655162898,0.9910683921649291,Yes
+Line Management,mgr_effective_action,Q9i: Manager takes effective action,No,0.9829985125007102,0.987837453142653,0.9910683921649291,Yes
+Team Management,team_shared_objectives,Q7a: Team has shared objectives,No,0.6948828062826337,,0.8192738996654236,Yes
+Team Management,feel_valued_by_team,Q7h: I feel valued by my team,No,0.6948828062826332,,0.8192738996654236,Yes
+Appraisal,had_appraisal,Q23a: Had appraisal in last 12 months,No,0.02825067561339173,0.9139194726969213,0.4347496434611896,NO — weak fit
+Appraisal,appraisal_clear_objectives,Q23c: Appraisal helped agree clear objectives,No,0.42639596282211295,0.12270203370378363,0.4347496434611896,Yes
+Appraisal,appraisal_felt_valued,Q23d: Appraisal left feeling valued,No,0.5033258908120155,-0.03669500111864599,0.4347496434611896,Yes
+Development,supported_develop_potential,Q24d: Feel supported to develop potential,No,0.9148067324468988,,0.9503598470747918,Yes
+Development,access_learning_dev,Q24e: Can access learning/development opportunities,No,0.9148067324468989,,0.9503598470747918,Yes

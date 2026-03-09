@@ -1,0 +1,30 @@
+Standard,Variable,Question,N,Mean,SD,Min,Max
+Reducing Violence,violence_patients,Q13a: Physical violence from patients/public,263,0.0467626416964544,0.02937782474262879,0.0,0.1285212535241807
+Reducing Violence,violence_managers,Q13b: Physical violence from managers,263,0.0025938101869228975,0.0021613131725109103,0.0,0.01925564909045689
+Reducing Violence,violence_colleagues,Q13c: Physical violence from colleagues,263,0.005364333320168176,0.0037857307118348187,0.0,0.027470241184074918
+Reducing Violence,harassment_patients,Q14a: Harassment from patients/public,263,0.09116073725170518,0.04289141036182723,0.008915574963609901,0.2582074085617756
+Reducing Violence,harassment_managers,Q14b: Harassment from managers,263,0.03733184330444598,0.01188500346441444,0.012939400648512291,0.10481985789802191
+Reducing Violence,harassment_colleagues,Q14c: Harassment from colleagues,263,0.0590556488904847,0.016111523269637478,0.02059925093632959,0.14700177885646848
+Reducing Violence,violence_reported,Q13d: Violence reported,219,0.7221797048965749,0.09996326337660945,0.5529748654737282,0.9492336733711959
+Tackling Racism,fair_career_progression,Q15: Org acts fairly re career progression,263,0.5607111119413337,0.06167125644843941,0.3495575221238938,0.7756542917530662
+Tackling Racism,discrim_patients,Q16a: Discrimination from patients/public,263,0.0739606788402786,0.04295022827363242,0.0,0.24341164526022907
+Tackling Racism,discrim_colleagues,Q16b: Discrimination from manager/colleagues,263,0.08386570738501897,0.025960213901052402,0.0,0.15082325893002385
+Tackling Racism,org_respects_differences,Q21: Org respects individual differences,263,0.7059846004913471,0.03538110560822134,0.5980392156862745,0.8268984425917429
+Sexual Safety,sexual_behaviour_patients,Q17a: Unwanted sexual behaviour from patients,263,0.027369610703420262,0.019869556246665875,0.0,0.1256199071692349
+Sexual Safety,sexual_behaviour_staff,Q17b: Unwanted sexual behaviour from staff,263,0.01139474207682311,0.0069759149050879245,0.0,0.062321544884887524
+Flexible Working,satisfaction_flexible_working,Q4d: Satisfaction with flexible working,263,0.6571788962212034,0.06585575514837609,0.4593839885556871,0.8218210361067503
+Flexible Working,org_committed_wlb,Q6b: Org committed to helping balance work/home,263,0.6096798150668524,0.054949299972936565,0.4020142894674136,0.7380589397397572
+Flexible Working,manager_flexible_working,Q6d: Can approach manager about flexible working,263,0.7335459167193393,0.04653044007177711,0.5969214388247044,0.8414634146341464
+Flexible Working (comparison),good_wl_balance,Q6c: Achieve good work-life balance,263,0.6236038225695929,0.04070568678509683,0.4652323949009266,0.743946731234867
+Line Management,mgr_interest_wellbeing,Q9d: Manager takes interest in wellbeing,263,0.7338391201073187,0.04123145805671666,0.6004326917763236,0.8222891566265059
+Line Management,mgr_understanding_problems,Q9f: Manager works to understand problems,263,0.7206508572489941,0.03688575199112437,0.6062253391193351,0.8062654006585663
+Line Management,mgr_effective_action,Q9i: Manager takes effective action,263,0.7123338739886538,0.03547331647013908,0.6088943898074269,0.7996477956119225
+Team Management,team_shared_objectives,Q7a: Team has shared objectives,263,0.700010258654919,0.026880062093215702,0.6148504273504274,0.7961538461538461
+Team Management,feel_valued_by_team,Q7h: I feel valued by my team,263,0.6992099705706564,0.028369936345531727,0.6132669923254164,0.8
+Appraisal,had_appraisal,Q23a: Had appraisal in last 12 months,263,0.8462467101334695,0.07328969424240397,0.46078431372549017,0.9728816371961151
+Appraisal,appraisal_clear_objectives,Q23c: Appraisal helped agree clear objectives,263,0.6030044928964937,0.0444862777243074,0.44594166844993777,0.7403575521259117
+Appraisal,appraisal_felt_valued,Q23d: Appraisal left feeling valued,263,0.5631620851658116,0.04730179973414,0.40085196124809935,0.7391304347826086
+Development,supported_develop_potential,Q24d: Feel supported to develop potential,263,0.6179947791619868,0.03658165605602261,0.48766447368421056,0.7274012667815293
+Development,access_learning_dev,Q24e: Can access learning/development opportunities,263,0.6284883584006759,0.04224377655874874,0.44117647058823534,0.7434424813663025
+Supportive Env - Facilities,nutritious_food,Q22: Can eat nutritious/affordable food at work,263,0.6582702658635594,0.05175698489938872,0.5249821804866155,0.8038461538461539
+Supportive Env - Wellbeing,org_positive_wellbeing,Q11a: Org takes positive action on wellbeing,263,0.6341684219828455,0.04633090643211855,0.5023204624884562,0.7692547614237895

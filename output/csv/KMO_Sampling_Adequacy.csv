@@ -1,0 +1,29 @@
+Variable,Question,KMO,Verdict
+violence_patients,Q13a: Physical violence from patients/public,0.9134270113701043,Good
+violence_managers,Q13b: Physical violence from managers,0.8613348444046647,Good
+violence_colleagues,Q13c: Physical violence from colleagues,0.8825166459345206,Good
+harassment_patients,Q14a: Harassment from patients/public,0.8772452288033593,Good
+harassment_managers,Q14b: Harassment from managers,0.891933485144405,Good
+harassment_colleagues,Q14c: Harassment from colleagues,0.9123108761961901,Good
+fair_career_progression,Q15: Org acts fairly re career progression,0.9019677137798019,Good
+discrim_patients,Q16a: Discrimination from patients/public,0.8947817936529379,Good
+discrim_colleagues,Q16b: Discrimination from manager/colleagues,0.9427259287567653,Good
+org_respects_differences,Q21: Org respects individual differences,0.9428475045055671,Good
+sexual_behaviour_patients,Q17a: Unwanted sexual behaviour from patients,0.9065649161042952,Good
+sexual_behaviour_staff,Q17b: Unwanted sexual behaviour from staff,0.945424887548197,Good
+satisfaction_flexible_working,Q4d: Satisfaction with flexible working,0.9125753475752446,Good
+org_committed_wlb,Q6b: Org committed to helping balance work/home,0.9472108416536448,Good
+manager_flexible_working,Q6d: Can approach manager about flexible working,0.9329034069252076,Good
+mgr_interest_wellbeing,Q9d: Manager takes interest in wellbeing,0.9557034449319841,Good
+mgr_understanding_problems,Q9f: Manager works to understand problems,0.9051670394695805,Good
+mgr_effective_action,Q9i: Manager takes effective action,0.9206794340074962,Good
+team_shared_objectives,Q7a: Team has shared objectives,0.8953577022142392,Good
+feel_valued_by_team,Q7h: I feel valued by my team,0.9265928490118297,Good
+had_appraisal,Q23a: Had appraisal in last 12 months,0.8323489614055626,Good
+appraisal_clear_objectives,Q23c: Appraisal helped agree clear objectives,0.8799773449932508,Good
+appraisal_felt_valued,Q23d: Appraisal left feeling valued,0.8980553101033195,Good
+supported_develop_potential,Q24d: Feel supported to develop potential,0.886473480695226,Good
+access_learning_dev,Q24e: Can access learning/development opportunities,0.8313264185430285,Good
+nutritious_food,Q22: Can eat nutritious/affordable food at work,0.9729386708332123,Good
+org_positive_wellbeing,Q11a: Org takes positive action on wellbeing,0.9511165328163611,Good
+OVERALL,,0.914877335710196,Good
