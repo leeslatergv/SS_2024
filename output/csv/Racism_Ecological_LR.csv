@@ -1,0 +1,7 @@
+Variable,Question,N Orgs,Correlation with % BME staff,p-value,Interpretation
+fair_career_progression,Q15: Fair career progression (% Yes),263,-0.34944190041391976,5.7230461198772204e-09,Higher BME % -> lower discrimination
+discrim_patients,Q16a: Discrimination from patients (% Yes),263,0.5588370413680429,5.2847354385483145e-23,Higher BME % -> higher discrimination
+discrim_colleagues,Q16b: Discrimination from colleagues (% Yes),263,0.6832301059369812,1.642762843226488e-37,Higher BME % -> higher discrimination
+org_respects_differences,Q21: Org respects differences,263,-0.11506160641457157,0.062421401241431584,No significant relationship
+,,,,,
+NOTE,"These are ECOLOGICAL correlations (org-level % BME vs org-level discrimination rate). The true likelihood ratio P(discrim|BME)/P(discrim|White) requires individual-level data or WRES indicator breakdowns, which are not in this dataset. A positive correlation means orgs with more BME staff also have higher discrimination rates, which is consistent with but NOT the same as a BME/White likelihood ratio.",,,,
